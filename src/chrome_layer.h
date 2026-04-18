@@ -5,8 +5,6 @@
 #include <moth_ui/utils/vector.h>
 #include <moth_graphics/events/event_window.h>
 
-#include <filesystem>
-
 class ChromeLayer : public moth_ui::Layer {
 public:
     ChromeLayer(moth_ui::Context& context);

@@ -11,7 +11,10 @@ ChromeLayer::ChromeLayer(moth_ui::Context& context)
 
 bool ChromeLayer::OnEvent(moth_ui::Event const& event) {
     moth_ui::EventDispatch dispatch(event);
-    dispatch.Dispatch(m_root.get());
+    bool handled = dispatch.GetHandled();
+    if (!handled && m_root) {
+        handled = m_root->SendEvent(event, moth_ui::Node::EventDirection::Down);
+    }
     return dispatch.GetHandled();
 }
 

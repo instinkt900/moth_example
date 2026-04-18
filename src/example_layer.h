@@ -6,8 +6,6 @@
 #include <moth_ui/utils/vector.h>
 #include <moth_graphics/events/event_window.h>
 
-#include <filesystem>
-
 class ExampleLayer : public moth_ui::Layer {
 public:
     ExampleLayer(moth_ui::Context& context);

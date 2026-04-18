@@ -16,7 +16,7 @@ public:
     };
 
     UIButton(moth_ui::Context& context, std::shared_ptr<moth_ui::LayoutEntityGroup> entity);
-    virtual ~UIButton() = default;
+    ~UIButton() override = default;
 
     void Update(uint32_t ticks) override;
     bool OnEvent(moth_ui::Event const& event) override;
