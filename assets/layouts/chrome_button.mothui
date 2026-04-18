@@ -2,26 +2,90 @@
   "blend": "Replace",
   "children": [
     {
-      "blend": "Replace",
-      "class": "button",
-      "id": "button1",
-      "layoutPath": "button.mothui",
-      "propertyOverrides": [
-        {
-          "childIndex": 1,
-          "data": {
-            "text": "Menu Item 1"
-          },
-          "type": "Text"
-        }
+      "blend": "Alpha",
+      "class": "",
+      "id": "",
+      "imagePath": "../images/button_back.png",
+      "imageScale": 1.0,
+      "imageScaleType": "NineSlice",
+      "pivot": [
+        0.5,
+        0.5
       ],
+      "sourceBorders": {
+        "bottomRight": [
+          255,
+          255
+        ],
+        "topLeft": [
+          255,
+          255
+        ]
+      },
+      "sourceRect": {
+        "bottomRight": [
+          0,
+          0
+        ],
+        "topLeft": [
+          0,
+          0
+        ]
+      },
+      "targetBorders": {
+        "anchor": {
+          "bottomRight": [
+            1.0,
+            1.0
+          ],
+          "topLeft": [
+            0.0,
+            0.0
+          ]
+        },
+        "offset": {
+          "bottomRight": [
+            -10.0,
+            -10.0
+          ],
+          "topLeft": [
+            10.0,
+            10.0
+          ]
+        }
+      },
+      "textureFilter": 0,
       "tracks": [
+        {
+          "keyframes": [],
+          "target": "Events"
+        },
         {
           "keyframes": [
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 5.0
+              "value": 0.0
+            },
+            {
+              "frame": 2,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 3,
+              "interp": "Linear",
+              "value": 3.0
+            },
+            {
+              "frame": 4,
+              "interp": "BounceInOut",
+              "value": 3.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
             }
           ],
           "target": "TopOffset"
@@ -31,7 +95,27 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": -5.0
+              "value": 0.0
+            },
+            {
+              "frame": 2,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 3,
+              "interp": "Linear",
+              "value": 3.0
+            },
+            {
+              "frame": 4,
+              "interp": "BounceInOut",
+              "value": 3.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
             }
           ],
           "target": "BottomOffset"
@@ -42,6 +126,26 @@
               "frame": 0,
               "interp": "Linear",
               "value": 0.0
+            },
+            {
+              "frame": 2,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 3,
+              "interp": "Linear",
+              "value": 3.0
+            },
+            {
+              "frame": 4,
+              "interp": "BounceInOut",
+              "value": 3.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
             }
           ],
           "target": "LeftOffset"
@@ -50,6 +154,26 @@
           "keyframes": [
             {
               "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 2,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 3,
+              "interp": "Linear",
+              "value": 3.0
+            },
+            {
+              "frame": 4,
+              "interp": "BounceInOut",
+              "value": 3.0
+            },
+            {
+              "frame": 9,
               "interp": "Linear",
               "value": 0.0
             }
@@ -71,7 +195,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.25
+              "value": 1.0
             }
           ],
           "target": "BottomAnchor"
@@ -101,7 +225,12 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
+              "value": 0.19442041218280792
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.19367553293704987
             }
           ],
           "target": "ColorRed"
@@ -111,7 +240,12 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
+              "value": 0.3718705475330353
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.26529863476753235
             }
           ],
           "target": "ColorGreen"
@@ -121,7 +255,12 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
+              "value": 0.4264705777168274
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.6078431606292725
             }
           ],
           "target": "ColorBlue"
@@ -131,36 +270,79 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
+              "value": 0.8039215803146362
             }
           ],
           "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
         }
       ],
-      "type": "Ref",
+      "type": "Image",
       "visible": true
     },
     {
       "blend": "Replace",
-      "class": "button",
-      "id": "button2",
-      "layoutPath": "button.mothui",
-      "propertyOverrides": [
-        {
-          "childIndex": 1,
-          "data": {
-            "text": "Menu Item 2"
-          },
-          "type": "Text"
-        }
+      "class": "",
+      "dropShadow": true,
+      "dropShadowColor": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
       ],
+      "dropShadowOffset": [
+        1,
+        1
+      ],
+      "fontName": "RealtimeGamer",
+      "fontSize": 24,
+      "horizontalAlignment": "Center",
+      "id": "label",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "text": "label",
       "tracks": [
+        {
+          "keyframes": [],
+          "target": "Events"
+        },
         {
           "keyframes": [
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 5.0
+              "value": 0.0
+            },
+            {
+              "frame": 2,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 3,
+              "interp": "Linear",
+              "value": 3.0
+            },
+            {
+              "frame": 4,
+              "interp": "BounceOut",
+              "value": 3.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
             }
           ],
           "target": "TopOffset"
@@ -170,7 +352,27 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": -5.0
+              "value": 0.0
+            },
+            {
+              "frame": 2,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 3,
+              "interp": "Linear",
+              "value": 3.0
+            },
+            {
+              "frame": 4,
+              "interp": "BounceOut",
+              "value": 3.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
             }
           ],
           "target": "BottomOffset"
@@ -179,6 +381,26 @@
           "keyframes": [
             {
               "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 2,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 3,
+              "interp": "Linear",
+              "value": 3.0
+            },
+            {
+              "frame": 4,
+              "interp": "BounceOut",
+              "value": 3.0
+            },
+            {
+              "frame": 9,
               "interp": "Linear",
               "value": 0.0
             }
@@ -191,143 +413,24 @@
               "frame": 0,
               "interp": "Linear",
               "value": 0.0
-            }
-          ],
-          "target": "RightOffset"
-        },
-        {
-          "keyframes": [
+            },
             {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 0.25
-            }
-          ],
-          "target": "TopAnchor"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 0.5
-            }
-          ],
-          "target": "BottomAnchor"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
+              "frame": 2,
               "interp": "Linear",
               "value": 0.0
-            }
-          ],
-          "target": "LeftAnchor"
-        },
-        {
-          "keyframes": [
+            },
             {
-              "frame": 0,
+              "frame": 3,
               "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "RightAnchor"
-        },
-        {
-          "keyframes": [
+              "value": 3.0
+            },
             {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "ColorRed"
-        },
-        {
-          "keyframes": [
+              "frame": 4,
+              "interp": "BounceOut",
+              "value": 3.0
+            },
             {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "ColorGreen"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "ColorBlue"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "ColorAlpha"
-        }
-      ],
-      "type": "Ref",
-      "visible": true
-    },
-    {
-      "blend": "Replace",
-      "class": "button",
-      "id": "button3",
-      "layoutPath": "button.mothui",
-      "propertyOverrides": [
-        {
-          "childIndex": 1,
-          "data": {
-            "text": "Menu Item 3"
-          },
-          "type": "Text"
-        }
-      ],
-      "tracks": [
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 5.0
-            }
-          ],
-          "target": "TopOffset"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": -5.0
-            }
-          ],
-          "target": "BottomOffset"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 0.0
-            }
-          ],
-          "target": "LeftOffset"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
+              "frame": 9,
               "interp": "Linear",
               "value": 0.0
             }
@@ -339,146 +442,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
-            }
-          ],
-          "target": "TopAnchor"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 0.75
-            }
-          ],
-          "target": "BottomAnchor"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
               "value": 0.0
-            }
-          ],
-          "target": "LeftAnchor"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "RightAnchor"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "ColorRed"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "ColorGreen"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "ColorBlue"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 1.0
-            }
-          ],
-          "target": "ColorAlpha"
-        }
-      ],
-      "type": "Ref",
-      "visible": true
-    },
-    {
-      "blend": "Replace",
-      "class": "button",
-      "id": "button4",
-      "layoutPath": "button.mothui",
-      "propertyOverrides": [
-        {
-          "childIndex": 1,
-          "data": {
-            "text": "menu item 4"
-          },
-          "type": "Text"
-        }
-      ],
-      "tracks": [
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 5.0
-            }
-          ],
-          "target": "TopOffset"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": -5.0
-            }
-          ],
-          "target": "BottomOffset"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 0.0
-            }
-          ],
-          "target": "LeftOffset"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 0.0
-            }
-          ],
-          "target": "RightOffset"
-        },
-        {
-          "keyframes": [
-            {
-              "frame": 0,
-              "interp": "Linear",
-              "value": 0.75
             }
           ],
           "target": "TopAnchor"
@@ -552,20 +516,58 @@
             }
           ],
           "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
         }
       ],
-      "type": "Ref",
+      "type": "Text",
+      "verticalAlignment": "Middle",
       "visible": true
     }
   ],
-  "class": "",
-  "clips": [],
+  "class": "button",
+  "clips": [
+    {
+      "m_endFrame": 0,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "idle",
+      "m_startFrame": 0
+    },
+    {
+      "m_endFrame": 1,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "hover",
+      "m_startFrame": 1
+    },
+    {
+      "m_endFrame": 3,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "press",
+      "m_startFrame": 2
+    },
+    {
+      "m_endFrame": 9,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "activate",
+      "m_startFrame": 4
+    }
+  ],
   "events": [],
   "extra_data": {
     "animation_panel": {
-      "m_currentFrame": 0,
-      "m_maxFrame": 93,
-      "m_minFrame": 0,
+      "m_maxFrame": 94,
       "m_totalFrames": 600
     }
   },

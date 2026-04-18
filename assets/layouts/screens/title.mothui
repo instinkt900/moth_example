@@ -4,60 +4,16 @@
     {
       "blend": "Replace",
       "class": "",
-      "id": "",
-      "imagePath": "../images/title_raw.jpg",
-      "imageScale": 1.0,
-      "imageScaleType": "Stretch",
+      "filled": true,
+      "id": "bg",
       "pivot": [
         0.5,
         0.5
       ],
-      "sourceBorders": {
-        "bottomRight": [
-          15,
-          15
-        ],
-        "topLeft": [
-          15,
-          15
-        ]
-      },
-      "sourceRect": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "targetBorders": {
-        "anchor": {
-          "bottomRight": [
-            0.0,
-            0.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        },
-        "offset": {
-          "bottomRight": [
-            0.0,
-            0.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        }
-      },
       "tracks": [
         {
           "keyframes": [],
-          "target": "Unknown"
+          "target": "Events"
         },
         {
           "keyframes": [
@@ -144,7 +100,32 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 44,
+              "interp": "SineInOut",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 195,
+              "interp": "SineInOut",
+              "value": 0.07100000232458115
+            },
+            {
+              "frame": 345,
+              "interp": "SineInOut",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 346,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 375,
+              "interp": "Linear",
+              "value": 0.03099999949336052
             }
           ],
           "target": "ColorRed"
@@ -154,7 +135,32 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 44,
+              "interp": "SineInOut",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 195,
+              "interp": "SineInOut",
+              "value": 0.019999999552965164
+            },
+            {
+              "frame": 345,
+              "interp": "SineInOut",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 346,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 375,
+              "interp": "Linear",
+              "value": 0.0430000014603138
             }
           ],
           "target": "ColorGreen"
@@ -164,7 +170,32 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 44,
+              "interp": "SineInOut",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 195,
+              "interp": "SineInOut",
+              "value": 0.15700000524520874
+            },
+            {
+              "frame": 345,
+              "interp": "SineInOut",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 346,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 375,
+              "interp": "Linear",
+              "value": 0.07800000160932541
             }
           ],
           "target": "ColorBlue"
@@ -173,8 +204,33 @@
           "keyframes": [
             {
               "frame": 0,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 15,
               "interp": "Linear",
               "value": 1.0
+            },
+            {
+              "frame": 44,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 345,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 346,
+              "interp": "SineIn",
+              "value": 1.0
+            },
+            {
+              "frame": 375,
+              "interp": "Linear",
+              "value": 0.0
             }
           ],
           "target": "ColorAlpha"
@@ -190,43 +246,256 @@
           "target": "Rotation"
         }
       ],
-      "type": "Image",
+      "type": "Rect",
       "visible": true
     },
     {
-      "blend": "Replace",
+      "blend": "Alpha",
       "class": "",
       "dropShadow": true,
       "dropShadowColor": [
-        0.0,
-        0.0,
-        0.0,
-        0.5647059082984924
+        0.18992692232131958,
+        0.32643502950668335,
+        0.5098038911819458,
+        0.8500000238418579
       ],
       "dropShadowOffset": [
-        8,
-        8
+        5,
+        5
       ],
-      "fontName": "Pilot Command",
-      "fontSize": 90,
+      "fontName": "RealtimeGamer",
+      "fontSize": 120,
       "horizontalAlignment": "Center",
-      "id": "",
+      "id": "title",
       "pivot": [
         0.5,
         0.5
       ],
-      "text": "Example Title",
+      "text": "moth",
       "tracks": [
         {
           "keyframes": [],
-          "target": "Unknown"
+          "target": "Events"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 10.0
+            },
+            {
+              "frame": 44,
+              "interp": "BounceInOut",
+              "value": -100.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 160.0
+            },
+            {
+              "frame": 44,
+              "interp": "BounceInOut",
+              "value": 50.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 50.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": -50.0
+            },
+            {
+              "frame": 44,
+              "interp": "BounceInOut",
+              "value": -50.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 1.0
+            },
+            {
+              "frame": 44,
+              "interp": "BounceInOut",
+              "value": 0.5
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 1.0
+            },
+            {
+              "frame": 44,
+              "interp": "BounceInOut",
+              "value": 0.5
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 1.0
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 0.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 0.8309999704360962
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 0.0
+            },
+            {
+              "frame": 44,
+              "interp": "BounceInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 120,
+              "interp": "SineInOut",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 195,
+              "interp": "SineInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 270,
+              "interp": "SineInOut",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 345,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "BounceOut",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Text",
+      "verticalAlignment": "Middle",
+      "visible": true
+    },
+    {
+      "blend": "Alpha",
+      "class": "",
+      "dropShadow": false,
+      "dropShadowColor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dropShadowOffset": [
+        0,
+        0
+      ],
+      "fontName": "RealtimeGamer",
+      "fontSize": 32,
+      "horizontalAlignment": "Center",
+      "id": "subtitle",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "text": "a 2D UI framework",
+      "tracks": [
+        {
+          "keyframes": [],
+          "target": "Events"
         },
         {
           "keyframes": [
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": 316.0
             }
           ],
           "target": "TopOffset"
@@ -236,7 +505,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -170.0
             }
           ],
           "target": "BottomOffset"
@@ -246,7 +515,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": 97.0
             }
           ],
           "target": "LeftOffset"
@@ -256,7 +525,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -95.0
             }
           ],
           "target": "RightOffset"
@@ -276,7 +545,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
+              "value": 1.0
             }
           ],
           "target": "BottomAnchor"
@@ -306,17 +575,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.7058823108673096
-            },
-            {
-              "frame": 10,
-              "interp": "Linear",
-              "value": 0.9754902124404907
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 0.656862735748291
+              "value": 0.6899999976158142
             }
           ],
           "target": "ColorRed"
@@ -326,17 +585,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.18685120344161987
-            },
-            {
-              "frame": 10,
-              "interp": "Linear",
-              "value": 0.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 0.16743558645248413
+              "value": 0.722000002861023
             }
           ],
           "target": "ColorGreen"
@@ -346,17 +595,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.18685120344161987
-            },
-            {
-              "frame": 10,
-              "interp": "Linear",
-              "value": 0.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 0.16743558645248413
+              "value": 0.9100000262260437
             }
           ],
           "target": "ColorBlue"
@@ -365,6 +604,26 @@
           "keyframes": [
             {
               "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 20,
+              "interp": "SineIn",
+              "value": 0.0
+            },
+            {
+              "frame": 35,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 44,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 345,
               "interp": "Linear",
               "value": 1.0
             }
@@ -387,45 +646,39 @@
       "visible": true
     },
     {
-      "blend": "Replace",
-      "class": "button",
-      "id": "button",
-      "layoutPath": "button.mothui",
+      "blend": "Alpha",
+      "class": "",
+      "dropShadow": false,
+      "dropShadowColor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dropShadowOffset": [
+        0,
+        0
+      ],
+      "fontName": "RealtimeGamer",
+      "fontSize": 16,
+      "horizontalAlignment": "Right",
+      "id": "moth_ui_version",
       "pivot": [
         0.5,
         0.5
       ],
-      "propertyOverrides": [
-        {
-          "childIndex": 1,
-          "data": {
-            "text": "Continue"
-          },
-          "type": "Text"
-        }
-      ],
+      "text": "moth_ui",
       "tracks": [
+        {
+          "keyframes": [],
+          "target": "Events"
+        },
         {
           "keyframes": [
             {
               "frame": 0,
               "interp": "Linear",
-              "value": -70.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": -70.0
-            },
-            {
-              "frame": 20,
-              "interp": "Linear",
-              "value": 30.0
-            },
-            {
-              "frame": 60,
-              "interp": "Linear",
-              "value": -70.0
+              "value": 0.0
             }
           ],
           "target": "TopOffset"
@@ -435,22 +688,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": -30.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": -30.0
-            },
-            {
-              "frame": 20,
-              "interp": "Linear",
-              "value": 70.0
-            },
-            {
-              "frame": 60,
-              "interp": "Linear",
-              "value": -30.0
+              "value": 0.0
             }
           ],
           "target": "BottomOffset"
@@ -460,12 +698,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": -100.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": -100.0
+              "value": 0.0
             }
           ],
           "target": "LeftOffset"
@@ -475,12 +708,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 100.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 100.0
+              "value": 0.0
             }
           ],
           "target": "RightOffset"
@@ -490,12 +718,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.8799999952316284
             }
           ],
           "target": "TopAnchor"
@@ -505,12 +728,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.9300000071525574
             }
           ],
           "target": "BottomAnchor"
@@ -520,12 +738,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 0.5
+              "value": 0.6000000238418579
             }
           ],
           "target": "LeftAnchor"
@@ -535,12 +748,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 0.5
+              "value": 0.9700000286102295
             }
           ],
           "target": "RightAnchor"
@@ -550,12 +758,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.28200000524520874
             }
           ],
           "target": "ColorRed"
@@ -565,12 +768,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.32199999690055847
             }
           ],
           "target": "ColorGreen"
@@ -580,12 +778,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.40799999237060547
             }
           ],
           "target": "ColorBlue"
@@ -595,10 +788,20 @@
             {
               "frame": 0,
               "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 30,
+              "interp": "SineIn",
+              "value": 0.0
+            },
+            {
+              "frame": 44,
+              "interp": "Linear",
               "value": 1.0
             },
             {
-              "frame": 19,
+              "frame": 345,
               "interp": "Linear",
               "value": 1.0
             }
@@ -616,70 +819,44 @@
           "target": "Rotation"
         }
       ],
-      "type": "Ref",
+      "type": "Text",
+      "verticalAlignment": "Middle",
       "visible": true
     },
     {
       "blend": "Alpha",
       "class": "",
-      "discrete_tracks": [
+      "dropShadow": false,
+      "dropShadowColor": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dropShadowOffset": [
+        0,
+        0
+      ],
+      "fontName": "RealtimeGamer",
+      "fontSize": 16,
+      "horizontalAlignment": "Right",
+      "id": "moth_graphics_version",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "text": "moth_graphics",
+      "tracks": [
         {
-          "keyframes": [
-            {
-              "frame": 0,
-              "value": "run_forward"
-            },
-            {
-              "frame": 19,
-              "value": "run_forward"
-            },
-            {
-              "frame": 20,
-              "value": "run_right"
-            },
-            {
-              "frame": 40,
-              "value": "run_forward"
-            },
-            {
-              "frame": 61,
-              "value": "run_back"
-            }
-          ],
-          "target": "FlipbookClip"
+          "keyframes": [],
+          "target": "Events"
         },
         {
           "keyframes": [
             {
               "frame": 0,
-              "value": "1"
-            },
-            {
-              "frame": 19,
-              "value": "1"
-            }
-          ],
-          "target": "FlipbookPlaying"
-        }
-      ],
-      "flipbook_path": "../sprites/character.flipbook.json",
-      "id": "",
-      "pivot": [
-        0.5,
-        0.5
-      ],
-      "tracks": [
-        {
-          "keyframes": [
-            {
-              "frame": 0,
               "interp": "Linear",
-              "value": -130.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": -130.0
+              "value": 0.0
             }
           ],
           "target": "TopOffset"
@@ -689,12 +866,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": -30.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": -30.0
+              "value": 0.0
             }
           ],
           "target": "BottomOffset"
@@ -704,27 +876,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 80.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 80.0
-            },
-            {
-              "frame": 20,
-              "interp": "Linear",
-              "value": -120.0
-            },
-            {
-              "frame": 40,
-              "interp": "Linear",
-              "value": 80.0
-            },
-            {
-              "frame": 61,
-              "interp": "Linear",
-              "value": 80.0
+              "value": 0.0
             }
           ],
           "target": "LeftOffset"
@@ -734,27 +886,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 180.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 180.0
-            },
-            {
-              "frame": 20,
-              "interp": "Linear",
-              "value": -20.0
-            },
-            {
-              "frame": 40,
-              "interp": "Linear",
-              "value": 180.0
-            },
-            {
-              "frame": 61,
-              "interp": "Linear",
-              "value": 180.0
+              "value": 0.0
             }
           ],
           "target": "RightOffset"
@@ -764,12 +896,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.9300000071525574
             }
           ],
           "target": "TopAnchor"
@@ -779,12 +906,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.9800000190734863
             }
           ],
           "target": "BottomAnchor"
@@ -794,12 +916,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 0.0
+              "value": 0.6000000238418579
             }
           ],
           "target": "LeftAnchor"
@@ -809,12 +926,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 0.0
+              "value": 0.9700000286102295
             }
           ],
           "target": "RightAnchor"
@@ -824,12 +936,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.28200000524520874
             }
           ],
           "target": "ColorRed"
@@ -839,12 +946,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.32199999690055847
             }
           ],
           "target": "ColorGreen"
@@ -854,12 +956,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
+              "value": 0.40799999237060547
             }
           ],
           "target": "ColorBlue"
@@ -869,22 +966,22 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 61,
-              "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 69,
-              "interp": "Linear",
               "value": 0.0
+            },
+            {
+              "frame": 30,
+              "interp": "SineIn",
+              "value": 0.0
+            },
+            {
+              "frame": 44,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 345,
+              "interp": "Linear",
+              "value": 1.0
             }
           ],
           "target": "ColorAlpha"
@@ -895,24 +992,20 @@
               "frame": 0,
               "interp": "Linear",
               "value": 0.0
-            },
-            {
-              "frame": 19,
-              "interp": "Linear",
-              "value": 0.0
             }
           ],
           "target": "Rotation"
         }
       ],
-      "type": "Flipbook",
+      "type": "Text",
+      "verticalAlignment": "Middle",
       "visible": true
     },
     {
       "blend": "Alpha",
       "class": "",
       "filled": true,
-      "id": "",
+      "id": "fade",
       "pivot": [
         0.5,
         0.5
@@ -926,7 +1019,7 @@
               "value": 0.0
             },
             {
-              "frame": 61,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -941,7 +1034,7 @@
               "value": 0.0
             },
             {
-              "frame": 61,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -956,7 +1049,7 @@
               "value": 0.0
             },
             {
-              "frame": 61,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -971,7 +1064,7 @@
               "value": 0.0
             },
             {
-              "frame": 61,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -986,7 +1079,7 @@
               "value": 0.0
             },
             {
-              "frame": 61,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -1001,7 +1094,7 @@
               "value": 1.0
             },
             {
-              "frame": 61,
+              "frame": 346,
               "interp": "Linear",
               "value": 1.0
             }
@@ -1016,7 +1109,7 @@
               "value": 0.0
             },
             {
-              "frame": 61,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -1031,7 +1124,7 @@
               "value": 1.0
             },
             {
-              "frame": 61,
+              "frame": 346,
               "interp": "Linear",
               "value": 1.0
             }
@@ -1043,15 +1136,10 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 61,
-              "interp": "Linear",
               "value": 0.0
             },
             {
-              "frame": 79,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -1063,15 +1151,10 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 61,
-              "interp": "Linear",
               "value": 0.0
             },
             {
-              "frame": 79,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -1083,15 +1166,10 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
-            },
-            {
-              "frame": 61,
-              "interp": "Linear",
               "value": 0.0
             },
             {
-              "frame": 79,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -1106,12 +1184,12 @@
               "value": 0.0
             },
             {
-              "frame": 61,
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             },
             {
-              "frame": 79,
+              "frame": 375,
               "interp": "Linear",
               "value": 1.0
             }
@@ -1122,6 +1200,11 @@
           "keyframes": [
             {
               "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 346,
               "interp": "Linear",
               "value": 0.0
             }
@@ -1136,31 +1219,31 @@
   "class": "",
   "clips": [
     {
-      "m_endFrame": 19,
+      "m_endFrame": 44,
       "m_fps": 30.0,
-      "m_loopType": "Loop",
-      "m_name": "idle",
+      "m_loopType": "Stop",
+      "m_name": "activate",
       "m_startFrame": 0
     },
     {
-      "m_endFrame": 60,
+      "m_endFrame": 345,
       "m_fps": 30.0,
-      "m_loopType": "Stop",
-      "m_name": "ready",
-      "m_startFrame": 20
+      "m_loopType": "Loop",
+      "m_name": "idle",
+      "m_startFrame": 45
     },
     {
-      "m_endFrame": 79,
+      "m_endFrame": 375,
       "m_fps": 30.0,
       "m_loopType": "Stop",
-      "m_name": "transition_out",
-      "m_startFrame": 61
+      "m_name": "deactivate",
+      "m_startFrame": 346
     }
   ],
   "events": [],
   "extra_data": {
     "animation_panel": {
-      "m_maxFrame": 93,
+      "m_maxFrame": 464,
       "m_totalFrames": 600
     }
   },

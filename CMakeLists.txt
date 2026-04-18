@@ -13,10 +13,12 @@ if (MSVC)
 endif()
 
 set(SOURCES ${SOURCES}
+	src/screens/screen_title.cpp
+	src/widgets/ui_button.cpp
+	src/chrome_layer.cpp
 	src/example_application.cpp
 	src/example_layer.cpp
 	src/main.cpp
-	src/ui_button.cpp
 )
 
 find_package(moth_graphics REQUIRED)

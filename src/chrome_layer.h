@@ -1,6 +1,5 @@
 #pragma once
 
-#include "screens/iscreen.h"
 #include <moth_ui/moth_ui_fwd.h>
 #include <moth_ui/layers/layer.h>
 #include <moth_ui/utils/vector.h>
@@ -8,10 +7,10 @@
 
 #include <filesystem>
 
-class ExampleLayer : public moth_ui::Layer {
+class ChromeLayer : public moth_ui::Layer {
 public:
-    ExampleLayer(moth_ui::Context& context);
-    ~ExampleLayer() override = default;
+    ChromeLayer(moth_ui::Context& context);
+    ~ChromeLayer() override = default;
     
     bool OnEvent(moth_ui::Event const& event) override;
     void Update(uint32_t ticks) override;
@@ -24,11 +23,5 @@ protected:
     moth_ui::Context& m_context;
     std::shared_ptr<moth_ui::Group> m_root;
 
-    bool OnRequestQuitEvent(moth_graphics::EventRequestQuit const& event);
-
-private:
-    std::unique_ptr<IScreen> MakeScreen(int index);
-    void LoadScreen(int index);
-
-    std::unique_ptr<IScreen> m_currentScreen;
+    bool LayoutEvent(moth_ui::Node* node, moth_ui::Event const& event);
 };

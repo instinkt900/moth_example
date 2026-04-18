@@ -1,4 +1,5 @@
 #include "example_application.h"
+#include "chrome_layer.h"
 #include "example_layer.h"
 #include "moth_graphics/utils/vector.h"
 #include "moth_graphics/platform/window.h"
@@ -7,7 +8,6 @@
 
 char const* const ExampleApplication::IMGUI_FILE = "imgui.ini";
 char const* const ExampleApplication::PERSISTENCE_FILE = "example.json";
-ExampleApplication* g_App;
 
 ExampleApplication::ExampleApplication(moth_graphics::platform::IPlatform& platform)
     : moth_graphics::platform::Application(platform, "Example", 640, 480) {
@@ -21,28 +21,24 @@ ExampleApplication::ExampleApplication(moth_graphics::platform::IPlatform& platf
         }
 
         if (!m_persistentState.is_null()) {
-            m_windowPos = m_persistentState.value("window_pos", m_windowPos);
-            m_windowWidth = m_persistentState.value("window_width", m_windowWidth);
-            m_windowHeight = m_persistentState.value("window_height", m_windowHeight);
-            m_windowMaximized = m_persistentState.value("window_maximized", m_windowMaximized);
+            m_mainWindowPosition = m_persistentState.value("window_pos", m_mainWindowPosition);
+            m_mainWindowWidth = m_persistentState.value("window_width", m_mainWindowWidth);
+            m_mainWindowHeight = m_persistentState.value("window_height", m_mainWindowHeight);
+            m_mainWindowMaximized = m_persistentState.value("window_maximized", m_mainWindowMaximized);
         }
     }
-
-    g_App = this;
 }
 
 ExampleApplication::~ExampleApplication() {
     std::ofstream ofile(m_persistentFilePath.string());
     if (ofile.is_open()) {
         m_persistentState["current_path"] = std::filesystem::current_path().string();
-        m_persistentState["window_pos"] = m_windowPos;
-        m_persistentState["window_width"] = m_windowWidth;
-        m_persistentState["window_height"] = m_windowHeight;
-        m_persistentState["window_maximized"] = m_windowMaximized;
+        m_persistentState["window_pos"] = m_mainWindowPosition;
+        m_persistentState["window_width"] = m_mainWindowWidth;
+        m_persistentState["window_height"] = m_mainWindowHeight;
+        m_persistentState["window_maximized"] = m_mainWindowMaximized;
         ofile << m_persistentState;
     }
-
-    g_App = nullptr;
 }
 
 void ExampleApplication::PostCreateWindow() {
@@ -56,7 +52,9 @@ void ExampleApplication::PostCreateWindow() {
     }
 
     m_window->GetMothContext().GetFontFactory().LoadProject("assets/fonts.json");
-    auto exampleLayer = std::make_unique<ExampleLayer>(m_window->GetMothContext(), "assets/layouts/title.mothui");
+    auto exampleLayer = std::make_unique<ExampleLayer>(m_window->GetMothContext());
+    auto chromeLayer = std::make_unique<ChromeLayer>(m_window->GetMothContext());
     m_window->GetLayerStack().PushLayer(std::move(exampleLayer));
+    m_window->GetLayerStack().PushLayer(std::move(chromeLayer));
     m_window->GetLayerStack().SetEventListener(this);
 }

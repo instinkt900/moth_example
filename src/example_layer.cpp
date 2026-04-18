@@ -1,21 +1,10 @@
 #include "example_layer.h"
+#include "screens/screen_title.h"
 
-#include "moth_ui/events/event_dispatch.h"
-#include "moth_ui/node_factory.h"
-#include "moth_ui/nodes/group.h"
-#include "ui_button.h"
-#include "moth_graphics/events/event_window.h"
+#include <moth_ui/moth_ui.h>
 
-ExampleLayer::ExampleLayer(moth_ui::Context& context, std::filesystem::path const& layoutPath)
+ExampleLayer::ExampleLayer(moth_ui::Context& context)
     : m_context(context) {
-    LoadLayout(layoutPath);
-
-    m_root->SetAnimation("ready");
-    if (auto startButton = m_root->FindChild<UIButton>("button")) {
-        startButton->SetClickAction([&]() {
-            m_root->SetAnimation("transition_out");
-        });
-    }
 }
 
 bool ExampleLayer::OnEvent(moth_ui::Event const& event) {
@@ -29,29 +18,30 @@ bool ExampleLayer::OnEvent(moth_ui::Event const& event) {
 }
 
 void ExampleLayer::Update(uint32_t ticks) {
-    auto rootCopy = m_root;
-    if (rootCopy) {
-        rootCopy->Update(ticks);
+    if (m_currentScreen) {
+        m_currentScreen->Update(ticks);
     }
 }
 
 void ExampleLayer::Draw() {
-    moth_ui::IntVec2 const currentSize{ GetWidth(), GetHeight() };
-    if (m_lastDrawnSize != currentSize) {
-        moth_ui::IntRect displayRect;
-        displayRect.topLeft = { 0, 0 };
-        displayRect.bottomRight = currentSize;
-        m_root->SetScreenRect(displayRect);
-    }
     if (m_root) {
-        m_root->Draw();
+        moth_ui::IntVec2 const displaySize{ GetWidth(), GetHeight() };
+        auto const currentSize = m_root->GetScreenRect().dimensions();
+        if (currentSize != displaySize) {
+            moth_ui::IntRect displayRect;
+            displayRect.topLeft = { 0, 0 };
+            displayRect.bottomRight = displaySize;
+            m_root->SetScreenRect(displayRect);
+        }
     }
-    m_lastDrawnSize = currentSize;
+    if (m_currentScreen) {
+        m_currentScreen->Draw();
+    }
 }
 
 void ExampleLayer::OnAddedToStack(moth_ui::LayerStack* stack) {
     Layer::OnAddedToStack(stack);
-
+    LoadScreen(0);
     if (m_root) {
         moth_ui::IntRect rect;
         rect.topLeft = { 0, 0 };
@@ -64,30 +54,30 @@ void ExampleLayer::OnRemovedFromStack() {
     Layer::OnRemovedFromStack();
 }
 
-void ExampleLayer::LoadLayout(std::filesystem::path const& path) {
-    m_root = moth_ui::NodeFactory::Get().Create(m_context, path, GetWidth(), GetHeight());
-    m_root->SetEventHandler([this](moth_ui::Node*, moth_ui::Event const& event) { return OnUIEvent(event); });
-}
-
-bool ExampleLayer::OnUIEvent(moth_ui::Event const& event) {
-    moth_ui::EventDispatch dispatch(event);
-    dispatch.Dispatch(this, &ExampleLayer::OnAnimationStopped);
-    return dispatch.GetHandled();
-}
-
-bool ExampleLayer::OnAnimationStopped(moth_ui::EventAnimationStopped const& event) {
-    if (event.GetClipName() == "ready") {
-        m_root->SetAnimation("idle");
-        return true;
-    } else if (event.GetClipName() == "transition_out") {
-        LoadLayout("assets/layouts/demo.mothui");
-        m_root->SetAnimation("transition_in");
-        return true;
-    }
-    return false;
-}
-
 bool ExampleLayer::OnRequestQuitEvent(moth_graphics::EventRequestQuit const& event) {
     m_layerStack->FireEvent(moth_graphics::EventQuit());
     return true;
+}
+
+using ScreenCtor = std::unique_ptr<IScreen> (*)(moth_ui::Context&, moth_ui::Layer const&);
+template <typename T>
+std::unique_ptr<IScreen> MakeScreenOf(moth_ui::Context& ctx, moth_ui::Layer const& layer) {
+    return std::make_unique<T>(ctx, layer);
+}
+
+std::unique_ptr<IScreen> ExampleLayer::MakeScreen(int index) {
+    static constexpr std::array<ScreenCtor, 6> screens = { {
+        &MakeScreenOf<ScreenTitle>,
+    } };
+    return screens.at(std::clamp<int>(index, 0, screens.size() - 1))(m_context, *this);
+}
+
+void ExampleLayer::LoadScreen(int index) {
+    if (m_currentScreen) {
+        m_currentScreen->Deactivate([this, index]() { m_currentScreen = nullptr; LoadScreen(index); });
+    } else {
+        m_currentScreen = MakeScreen(index);
+        m_root = m_currentScreen->GetRoot();
+        m_currentScreen->Activate();
+    }
 }

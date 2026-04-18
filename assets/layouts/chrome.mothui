@@ -1,0 +1,286 @@
+{
+  "blend": "Alpha",
+  "children": [
+    {
+      "blend": "Alpha",
+      "class": "",
+      "dropShadow": false,
+      "fontName": "RealtimeGamer",
+      "fontSize": 22,
+      "horizontalAlignment": "Left",
+      "id": "screen_title",
+      "pivot": [0.5, 0.5],
+      "text": "",
+      "tracks": [
+        { "keyframes": [], "target": "Events" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "TopOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "BottomOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "LeftOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "RightOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.02 }], "target": "TopAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.07 }], "target": "BottomAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.02 }], "target": "LeftAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.40 }], "target": "RightAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.784 }], "target": "ColorRed" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.847 }], "target": "ColorGreen" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.910 }], "target": "ColorBlue" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 1.0 }], "target": "ColorAlpha" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "Rotation" }
+      ],
+      "type": "Text",
+      "verticalAlignment": "Middle",
+      "visible": true
+    },
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "prev_button",
+      "layoutPath": "chrome_button.mothui",
+      "pivot": [0.5, 0.5],
+      "propertyOverrides": [
+        {
+          "childIndex": 1,
+          "data": { "text": "<" },
+          "type": "Text"
+        }
+      ],
+      "tracks": [
+        { "keyframes": [], "target": "Events" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "TopOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "BottomOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "LeftOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "RightOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.44 }], "target": "TopAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.56 }], "target": "BottomAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.015 }], "target": "LeftAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.065 }], "target": "RightAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 1.0 }], "target": "ColorRed" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 1.0 }], "target": "ColorGreen" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 1.0 }], "target": "ColorBlue" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 1.0 }], "target": "ColorAlpha" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "Rotation" }
+      ],
+      "type": "Ref",
+      "visible": true
+    },
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "next_button",
+      "layoutPath": "chrome_button.mothui",
+      "pivot": [0.5, 0.5],
+      "propertyOverrides": [
+        {
+          "childIndex": 1,
+          "data": { "text": ">" },
+          "type": "Text"
+        }
+      ],
+      "tracks": [
+        { "keyframes": [], "target": "Events" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "TopOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "BottomOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "LeftOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "RightOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.44 }], "target": "TopAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.56 }], "target": "BottomAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.935 }], "target": "LeftAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.985 }], "target": "RightAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 1.0 }], "target": "ColorRed" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 1.0 }], "target": "ColorGreen" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 1.0 }], "target": "ColorBlue" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 1.0 }], "target": "ColorAlpha" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "Rotation" }
+      ],
+      "type": "Ref",
+      "visible": true
+    },
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "dot_0",
+      "imagePath": "images/dot.png",
+      "imageScale": 1.0,
+      "imageScaleType": "Stretch",
+      "pivot": [0.5, 0.5],
+      "textureFilter": 0,
+      "tracks": [
+        { "keyframes": [], "target": "Events" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "TopOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "BottomOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "LeftOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "RightOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.945 }], "target": "TopAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.965 }], "target": "BottomAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.455 }], "target": "LeftAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.465 }], "target": "RightAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.30 }], "target": "ColorRed" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.36 }], "target": "ColorGreen" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.50 }], "target": "ColorBlue" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.55 }], "target": "ColorAlpha" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "Rotation" }
+      ],
+      "type": "Image",
+      "visible": true
+    },
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "dot_1",
+      "imagePath": "images/dot.png",
+      "imageScale": 1.0,
+      "imageScaleType": "Stretch",
+      "pivot": [0.5, 0.5],
+      "textureFilter": 0,
+      "tracks": [
+        { "keyframes": [], "target": "Events" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "TopOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "BottomOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "LeftOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "RightOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.945 }], "target": "TopAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.965 }], "target": "BottomAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.471 }], "target": "LeftAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.481 }], "target": "RightAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.30 }], "target": "ColorRed" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.36 }], "target": "ColorGreen" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.50 }], "target": "ColorBlue" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.55 }], "target": "ColorAlpha" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "Rotation" }
+      ],
+      "type": "Image",
+      "visible": true
+    },
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "dot_2",
+      "imagePath": "images/dot.png",
+      "imageScale": 1.0,
+      "imageScaleType": "Stretch",
+      "pivot": [0.5, 0.5],
+      "textureFilter": 0,
+      "tracks": [
+        { "keyframes": [], "target": "Events" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "TopOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "BottomOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "LeftOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "RightOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.945 }], "target": "TopAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.965 }], "target": "BottomAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.487 }], "target": "LeftAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.497 }], "target": "RightAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.30 }], "target": "ColorRed" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.36 }], "target": "ColorGreen" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.50 }], "target": "ColorBlue" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.55 }], "target": "ColorAlpha" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "Rotation" }
+      ],
+      "type": "Image",
+      "visible": true
+    },
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "dot_3",
+      "imagePath": "images/dot.png",
+      "imageScale": 1.0,
+      "imageScaleType": "Stretch",
+      "pivot": [0.5, 0.5],
+      "textureFilter": 0,
+      "tracks": [
+        { "keyframes": [], "target": "Events" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "TopOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "BottomOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "LeftOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "RightOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.945 }], "target": "TopAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.965 }], "target": "BottomAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.503 }], "target": "LeftAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.513 }], "target": "RightAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.30 }], "target": "ColorRed" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.36 }], "target": "ColorGreen" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.50 }], "target": "ColorBlue" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.55 }], "target": "ColorAlpha" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "Rotation" }
+      ],
+      "type": "Image",
+      "visible": true
+    },
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "dot_4",
+      "imagePath": "images/dot.png",
+      "imageScale": 1.0,
+      "imageScaleType": "Stretch",
+      "pivot": [0.5, 0.5],
+      "textureFilter": 0,
+      "tracks": [
+        { "keyframes": [], "target": "Events" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "TopOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "BottomOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "LeftOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "RightOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.945 }], "target": "TopAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.965 }], "target": "BottomAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.519 }], "target": "LeftAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.529 }], "target": "RightAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.30 }], "target": "ColorRed" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.36 }], "target": "ColorGreen" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.50 }], "target": "ColorBlue" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.55 }], "target": "ColorAlpha" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "Rotation" }
+      ],
+      "type": "Image",
+      "visible": true
+    },
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "dot_5",
+      "imagePath": "images/dot.png",
+      "imageScale": 1.0,
+      "imageScaleType": "Stretch",
+      "pivot": [0.5, 0.5],
+      "textureFilter": 0,
+      "tracks": [
+        { "keyframes": [], "target": "Events" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "TopOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "BottomOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "LeftOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "RightOffset" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.945 }], "target": "TopAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.965 }], "target": "BottomAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.535 }], "target": "LeftAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.545 }], "target": "RightAnchor" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.30 }], "target": "ColorRed" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.36 }], "target": "ColorGreen" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.50 }], "target": "ColorBlue" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.55 }], "target": "ColorAlpha" },
+        { "keyframes": [{ "frame": 0, "interp": "Linear", "value": 0.0 }], "target": "Rotation" }
+      ],
+      "type": "Image",
+      "visible": true
+    }
+  ],
+  "class": "",
+  "clips": [
+    {
+      "m_endFrame": 0,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "idle",
+      "m_startFrame": 0
+    }
+  ],
+  "events": [],
+  "extra_data": {
+    "animation_panel": {
+      "m_maxFrame": 9,
+      "m_totalFrames": 600
+    }
+  },
+  "mothui_version": 1,
+  "type": "Layout"
+}
