@@ -1,0 +1,205 @@
+{
+  "blend": "Replace",
+  "children": [
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "",
+      "imagePath": "../../images/track.png",
+      "imageScale": 1.0,
+      "imageScaleType": "NineSlice",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "sourceBorders": {
+        "bottomRight": [
+          20,
+          74
+        ],
+        "topLeft": [
+          20,
+          74
+        ]
+      },
+      "sourceRect": {
+        "bottomRight": [
+          0,
+          0
+        ],
+        "topLeft": [
+          0,
+          0
+        ]
+      },
+      "targetBorders": {
+        "anchor": {
+          "bottomRight": [
+            1.0,
+            0.5
+          ],
+          "topLeft": [
+            0.0,
+            0.5
+          ]
+        },
+        "offset": {
+          "bottomRight": [
+            -20.0,
+            1.0
+          ],
+          "topLeft": [
+            20.0,
+            -1.0
+          ]
+        }
+      },
+      "textureFilter": 0,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Image",
+      "visible": true
+    }
+  ],
+  "class": "",
+  "clips": [],
+  "events": [],
+  "extra_data": {
+    "animation_panel": {
+      "m_maxFrame": 200,
+      "m_totalFrames": 600
+    }
+  },
+  "mothui_version": 1,
+  "type": "Layout"
+}

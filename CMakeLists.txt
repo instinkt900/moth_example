@@ -14,7 +14,10 @@ endif()
 
 set(SOURCES ${SOURCES}
 	src/screens/screen_title.cpp
+	src/screens/screen_node.cpp
+	src/screens/screen_anim.cpp
 	src/widgets/ui_button.cpp
+	src/widgets/idler.cpp
 	src/chrome_layer.cpp
 	src/example_application.cpp
 	src/example_layer.cpp

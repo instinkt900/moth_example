@@ -1,7 +1,21 @@
 #include "example_layer.h"
+#include "screens/screen_anim.h"
+#include "screens/screen_node.h"
 #include "screens/screen_title.h"
 
 #include <moth_ui/moth_ui.h>
+
+using ScreenCtor = std::unique_ptr<IScreen> (*)(moth_ui::Context&, moth_ui::Layer const&);
+template <typename T>
+std::unique_ptr<IScreen> MakeScreenOf(moth_ui::Context& ctx, moth_ui::Layer const& layer) {
+    return std::make_unique<T>(ctx, layer);
+}
+
+static constexpr std::array<ScreenCtor, 3> screens = { {
+    &MakeScreenOf<ScreenTitle>,
+    &MakeScreenOf<ScreenNode>,
+    &MakeScreenOf<ScreenAnim>,
+} };
 
 ExampleLayer::ExampleLayer(moth_ui::Context& context)
     : m_context(context) {
@@ -10,6 +24,8 @@ ExampleLayer::ExampleLayer(moth_ui::Context& context)
 bool ExampleLayer::OnEvent(moth_ui::Event const& event) {
     moth_ui::EventDispatch dispatch(event);
     dispatch.Dispatch(this, &ExampleLayer::OnRequestQuitEvent);
+    dispatch.Dispatch(this, &ExampleLayer::OnNextPageEvent);
+    dispatch.Dispatch(this, &ExampleLayer::OnPrevPageEvent);
     bool handled = dispatch.GetHandled();
     if (!handled && m_root) {
         handled = m_root->SendEvent(event, moth_ui::Node::EventDirection::Down);
@@ -48,6 +64,7 @@ void ExampleLayer::OnAddedToStack(moth_ui::LayerStack* stack) {
         rect.bottomRight = { GetWidth(), GetHeight() };
         m_root->SetScreenRect(rect);
     }
+    stack->SetEventListener(this);
 }
 
 void ExampleLayer::OnRemovedFromStack() {
@@ -59,24 +76,26 @@ bool ExampleLayer::OnRequestQuitEvent(moth_graphics::EventRequestQuit const& eve
     return true;
 }
 
-using ScreenCtor = std::unique_ptr<IScreen> (*)(moth_ui::Context&, moth_ui::Layer const&);
-template <typename T>
-std::unique_ptr<IScreen> MakeScreenOf(moth_ui::Context& ctx, moth_ui::Layer const& layer) {
-    return std::make_unique<T>(ctx, layer);
+bool ExampleLayer::OnNextPageEvent(EventNextPage const& event) {
+    LoadScreen(m_currentIndex + 1);
+    return true;
+}
+
+bool ExampleLayer::OnPrevPageEvent(EventPrevPage const& event) {
+    LoadScreen(m_currentIndex - 1);
+    return true;
 }
 
 std::unique_ptr<IScreen> ExampleLayer::MakeScreen(int index) {
-    static constexpr std::array<ScreenCtor, 6> screens = { {
-        &MakeScreenOf<ScreenTitle>,
-    } };
     return screens.at(std::clamp<int>(index, 0, screens.size() - 1))(m_context, *this);
 }
 
 void ExampleLayer::LoadScreen(int index) {
+    m_currentIndex = std::clamp<int>(index, 0, screens.size() - 1);
     if (m_currentScreen) {
-        m_currentScreen->Deactivate([this, index]() { m_currentScreen = nullptr; LoadScreen(index); });
+        m_currentScreen->Deactivate([this]() { m_currentScreen = nullptr; LoadScreen(m_currentIndex); });
     } else {
-        m_currentScreen = MakeScreen(index);
+        m_currentScreen = MakeScreen(m_currentIndex);
         m_root = m_currentScreen->GetRoot();
         m_currentScreen->Activate();
     }

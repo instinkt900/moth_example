@@ -1,5 +1,6 @@
 #pragma once
 
+#include "events.h"
 #include "screens/iscreen.h"
 #include <moth_ui/moth_ui_fwd.h>
 #include <moth_ui/layers/layer.h>
@@ -23,10 +24,13 @@ protected:
     std::shared_ptr<moth_ui::Group> m_root;
 
     bool OnRequestQuitEvent(moth_graphics::EventRequestQuit const& event);
+    bool OnNextPageEvent(EventNextPage const& event);
+    bool OnPrevPageEvent(EventPrevPage const& event);
 
 private:
     std::unique_ptr<IScreen> MakeScreen(int index);
     void LoadScreen(int index);
 
     std::unique_ptr<IScreen> m_currentScreen;
+    int m_currentIndex = 0;
 };

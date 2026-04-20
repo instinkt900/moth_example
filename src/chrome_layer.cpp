@@ -1,4 +1,6 @@
 #include "chrome_layer.h"
+#include "events.h"
+#include "widgets/ui_button.h"
 #include <moth_ui/moth_ui.h>
 
 ChromeLayer::ChromeLayer(moth_ui::Context& context)
@@ -7,6 +9,20 @@ ChromeLayer::ChromeLayer(moth_ui::Context& context)
     m_root->SetEventHandler([this](moth_ui::Node* node, moth_ui::Event const& event) {
         return LayoutEvent(node, event);
     });
+
+    auto nextButton = m_root->FindChild<UIButton>("next_button");
+    auto prevButton = m_root->FindChild<UIButton>("prev_button");
+
+    if (nextButton) {
+        nextButton->SetClickAction([&]() {
+                m_layerStack->FireEvent(EventNextPage{});
+        });
+    }
+    if (prevButton) {
+        prevButton->SetClickAction([&]() {
+                m_layerStack->FireEvent(EventPrevPage{});
+        });
+    }
 }
 
 bool ChromeLayer::OnEvent(moth_ui::Event const& event) {

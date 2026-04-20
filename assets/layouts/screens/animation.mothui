@@ -1,0 +1,611 @@
+{
+  "blend": "Replace",
+  "children": [
+    {
+      "blend": "Replace",
+      "class": "",
+      "filled": true,
+      "id": "bg",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "tracks": [
+        {
+          "keyframes": [],
+          "target": "Events"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "SineInOut",
+              "value": 0.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Rect",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "idler",
+      "id": "anim_table",
+      "layoutPath": "../sublayouts/anim_tracks.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": null,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 62,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 62,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 1.0185185670852661
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 62,
+              "interp": "Linear",
+              "value": -1.0185185670852661
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 2.0185184478759766
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 62,
+              "interp": "Linear",
+              "value": -0.018518518656492233
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 1.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 32,
+              "interp": "CircInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 63,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    }
+  ],
+  "class": "",
+  "clips": [
+    {
+      "m_endFrame": 31,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "activate",
+      "m_startFrame": 1
+    },
+    {
+      "m_endFrame": 62,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "deactivate",
+      "m_startFrame": 32
+    },
+    {
+      "m_endFrame": 73,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "idle",
+      "m_startFrame": 63
+    }
+  ],
+  "events": [],
+  "extra_data": {
+    "animation_panel": {
+      "m_maxFrame": 214,
+      "m_totalFrames": 600
+    }
+  },
+  "mothui_version": 1,
+  "type": "Layout"
+}

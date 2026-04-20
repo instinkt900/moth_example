@@ -1,4 +1,4 @@
-#include "screen_title.h"
+#include "screen_node.h"
 #include <fmt/format.h>
 #include <moth_ui/events/event_animation.h>
 #include <moth_ui/events/event_dispatch.h>
@@ -12,33 +12,25 @@ static const std::string_view ActivateAnimName = "activate";
 static const std::string_view DeactivateAnimName = "deactivate";
 static const std::string_view IdleAnimName = "idle";
 
-ScreenTitle::ScreenTitle(moth_ui::Context& context, moth_ui::Layer const& layer)
+ScreenNode::ScreenNode(moth_ui::Context& context, moth_ui::Layer const& layer)
     : m_context(context) {
-    m_root = moth_ui::NodeFactory::Get().Create(m_context, "assets/layouts/screens/title.mothui", layer.GetWidth(), layer.GetHeight());
+    m_root = moth_ui::NodeFactory::Get().Create(m_context, "assets/layouts/screens/nodes.mothui", layer.GetWidth(), layer.GetHeight());
     if (m_root) {
         m_root->SetEventHandler([this](moth_ui::Node* node, moth_ui::Event const& event) {
             return LayoutEvent(node, event);
         });
-
-        if (auto node = m_root->FindChild<moth_ui::NodeText>("moth_ui_version")) {
-            node->SetText(fmt::format("moth_ui version: {}", moth_ui::Version));
-        }
-
-        if (auto node = m_root->FindChild<moth_ui::NodeText>("moth_graphics_version")) {
-            node->SetText(fmt::format("moth_graphics version: {}", moth_graphics::Version));
-        }
     }
 }
 
-ScreenTitle::~ScreenTitle() = default;
+ScreenNode::~ScreenNode() = default;
 
-void ScreenTitle::Activate() {
+void ScreenNode::Activate() {
     if (m_root) {
         m_root->SetAnimation(ActivateAnimName);
     }
 }
 
-void ScreenTitle::Deactivate(std::function<void()> const& onComplete) {
+void ScreenNode::Deactivate(std::function<void()> const& onComplete) {
     if (m_root) {
         m_deactivateAction = onComplete;
         m_root->SetAnimation(DeactivateAnimName);
@@ -47,26 +39,26 @@ void ScreenTitle::Deactivate(std::function<void()> const& onComplete) {
     }
 }
 
-void ScreenTitle::Update(uint32_t ticks) {
+void ScreenNode::Update(uint32_t ticks) {
     if (m_root) {
         auto rootCopy = m_root;
         rootCopy->Update(ticks);
     }
 }
 
-void ScreenTitle::Draw() {
+void ScreenNode::Draw() {
     if (m_root) {
         m_root->Draw();
     }
 }
 
-bool ScreenTitle::LayoutEvent(moth_ui::Node* node, moth_ui::Event const& event) {
+bool ScreenNode::LayoutEvent(moth_ui::Node* node, moth_ui::Event const& event) {
     moth_ui::EventDispatch dispatch(event);
-    dispatch.Dispatch(this, &ScreenTitle::OnAnimationStopped);
+    dispatch.Dispatch(this, &ScreenNode::OnAnimationStopped);
     return dispatch.GetHandled();
 }
 
-bool ScreenTitle::OnAnimationStopped(moth_ui::EventAnimationStopped const& event) {
+bool ScreenNode::OnAnimationStopped(moth_ui::EventAnimationStopped const& event) {
     if (event.GetClipName() == ActivateAnimName) {
         if (m_root) {
             m_root->SetAnimation(IdleAnimName);

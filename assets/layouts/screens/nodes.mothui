@@ -1,0 +1,4111 @@
+{
+  "blend": "Replace",
+  "children": [
+    {
+      "blend": "Replace",
+      "class": "",
+      "filled": true,
+      "id": "bg",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "tracks": [
+        {
+          "keyframes": [],
+          "target": "Events"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "SineInOut",
+              "value": 0.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Rect",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "",
+      "id": "",
+      "layoutPath": "../sublayouts/showcase_unfilled_rect.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": null,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 0.5
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 0.5
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": -0.359375
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": -0.359375
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": -0.359375
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": -0.078125
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": -0.078125
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": -0.078125
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 20,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 30,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 153,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "",
+      "id": "",
+      "layoutPath": "../sublayouts/showcase_filled_rect.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": null,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": -0.5185185074806213
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": -0.5185185074806213
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": -0.5185185074806213
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": -0.14814814925193787
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": -0.14814814925193787
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": -0.14814814925193787
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 0.359375
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 0.359375
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 0.640625
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 0.640625
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 40,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 50,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 155,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "",
+      "id": "",
+      "layoutPath": "../sublayouts/showcase_clip_rect.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": null,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 0.12962962687015533
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 0.5
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.5
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 0.5
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.078125
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 1.078125
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 1.078125
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.359375
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 1.359375
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 1.359375
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 60,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 70,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 157,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "",
+      "id": "",
+      "layoutPath": "../sublayouts/showcase_text.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": null,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.078125
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 1.078125
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.6614583134651184
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 1.078125
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.359375
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 1.359375
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.9427083134651184
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 1.359375
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 80,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 90,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 159,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "",
+      "id": "",
+      "layoutPath": "../sublayouts/showcase_image_nearest.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": null,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.203703761100769
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 1.203703761100769
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 1.203703761100769
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.5740740299224854
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 1.5740740299224854
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 1.5740740299224854
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 0.359375
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.359375
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 0.359375
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 0.640625
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.640625
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 0.640625
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 100,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 110,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 161,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "",
+      "id": "",
+      "layoutPath": "../sublayouts/showcase_image_linear.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": null,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.5555555820465088
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.9259259104728699
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": -0.359375
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": -0.359375
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0572916679084301
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": -0.359375
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": -0.078125
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": -0.078125
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.3385416567325592
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": -0.078125
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 1.0
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 1,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 120,
+              "interp": "CubicOut",
+              "value": 0.0
+            },
+            {
+              "frame": 130,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 131,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 139,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 140,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 163,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    }
+  ],
+  "class": "",
+  "clips": [
+    {
+      "m_endFrame": 130,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "activate",
+      "m_startFrame": 1
+    },
+    {
+      "m_endFrame": 139,
+      "m_fps": 10.0,
+      "m_loopType": "Loop",
+      "m_name": "idle",
+      "m_startFrame": 131
+    },
+    {
+      "m_endFrame": 163,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "deactivate",
+      "m_startFrame": 140
+    }
+  ],
+  "events": [],
+  "extra_data": {
+    "animation_panel": {
+      "m_maxFrame": 200,
+      "m_totalFrames": 600
+    }
+  },
+  "mothui_version": 1,
+  "type": "Layout"
+}
