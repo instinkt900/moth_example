@@ -1,32 +1,40 @@
 #include "chrome_layer.h"
 #include "events.h"
+#include "example_layer.h"
 #include "widgets/ui_button.h"
 #include <moth_ui/moth_ui.h>
 
-ChromeLayer::ChromeLayer(moth_ui::Context& context)
-    : m_context(context) {
+ChromeLayer::ChromeLayer(moth_ui::Context& context, ExampleLayer const& displayLayer)
+    : m_context(context)
+    , m_displayLayer(displayLayer) {
     m_root = moth_ui::NodeFactory::Get().Create(m_context, "assets/layouts/chrome.mothui", GetWidth(), GetHeight());
     m_root->SetEventHandler([this](moth_ui::Node* node, moth_ui::Event const& event) {
         return LayoutEvent(node, event);
     });
+
+    m_titleNode = m_root->FindChild<moth_ui::NodeText>("screen_title");
+    if (m_titleNode) {
+        m_titleNode->SetText("");
+    }
 
     auto nextButton = m_root->FindChild<UIButton>("next_button");
     auto prevButton = m_root->FindChild<UIButton>("prev_button");
 
     if (nextButton) {
         nextButton->SetClickAction([&]() {
-                m_layerStack->FireEvent(EventNextPage{});
+            m_layerStack->FireEvent(EventNextPage{});
         });
     }
     if (prevButton) {
         prevButton->SetClickAction([&]() {
-                m_layerStack->FireEvent(EventPrevPage{});
+            m_layerStack->FireEvent(EventPrevPage{});
         });
     }
 }
 
 bool ChromeLayer::OnEvent(moth_ui::Event const& event) {
     moth_ui::EventDispatch dispatch(event);
+    dispatch.Dispatch(this, &ChromeLayer::OnPageChanged);
     bool handled = dispatch.GetHandled();
     if (!handled && m_root) {
         handled = m_root->SendEvent(event, moth_ui::Node::EventDirection::Down);
@@ -72,4 +80,11 @@ void ChromeLayer::OnRemovedFromStack() {
 
 bool ChromeLayer::LayoutEvent(moth_ui::Node* node, moth_ui::Event const& event) {
     return false;
+}
+
+bool ChromeLayer::OnPageChanged(EventPageChanged const& event) {
+    if (m_titleNode) {
+        m_titleNode->SetText(m_displayLayer.GetPageTitle());
+    }
+    return true;
 }

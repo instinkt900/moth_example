@@ -263,7 +263,7 @@
         5,
         5
       ],
-      "fontName": "RealtimeGamer",
+      "fontName": "Flamantestencilmedium-8ByM",
       "fontSize": 120,
       "horizontalAlignment": "Center",
       "id": "title",
@@ -271,7 +271,7 @@
         0.5,
         0.5
       ],
-      "text": "moth",
+      "text": "Moth",
       "tracks": [
         {
           "keyframes": [],
@@ -476,7 +476,7 @@
         0,
         0
       ],
-      "fontName": "RealtimeGamer",
+      "fontName": "QuickingRegular-gw5KY",
       "fontSize": 32,
       "horizontalAlignment": "Center",
       "id": "subtitle",
@@ -495,7 +495,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 316.0
+              "value": -2.0
             }
           ],
           "target": "TopOffset"
@@ -505,7 +505,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": -170.0
+              "value": 88.0
             }
           ],
           "target": "BottomOffset"
@@ -515,7 +515,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 97.0
+              "value": -415.0
             }
           ],
           "target": "LeftOffset"
@@ -525,7 +525,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": -95.0
+              "value": 417.0
             }
           ],
           "target": "RightOffset"
@@ -535,7 +535,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": 0.5
             }
           ],
           "target": "TopAnchor"
@@ -545,7 +545,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
+              "value": 0.5
             }
           ],
           "target": "BottomAnchor"
@@ -555,7 +555,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": 0.5
             }
           ],
           "target": "LeftAnchor"
@@ -565,7 +565,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 1.0
+              "value": 0.5
             }
           ],
           "target": "RightAnchor"
@@ -659,7 +659,7 @@
         0,
         0
       ],
-      "fontName": "RealtimeGamer",
+      "fontName": "QuickingRegular-gw5KY",
       "fontSize": 16,
       "horizontalAlignment": "Right",
       "id": "moth_ui_version",
@@ -678,7 +678,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -65.0
             }
           ],
           "target": "TopOffset"
@@ -688,7 +688,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -38.0
             }
           ],
           "target": "BottomOffset"
@@ -698,7 +698,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -384.0
             }
           ],
           "target": "LeftOffset"
@@ -708,7 +708,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -29.0
             }
           ],
           "target": "RightOffset"
@@ -718,7 +718,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.8799999952316284
+              "value": 1.0
             }
           ],
           "target": "TopAnchor"
@@ -728,7 +728,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.9300000071525574
+              "value": 1.0
             }
           ],
           "target": "BottomAnchor"
@@ -738,7 +738,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.6000000238418579
+              "value": 1.0
             }
           ],
           "target": "LeftAnchor"
@@ -748,7 +748,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.9700000286102295
+              "value": 1.0
             }
           ],
           "target": "RightAnchor"
@@ -837,7 +837,7 @@
         0,
         0
       ],
-      "fontName": "RealtimeGamer",
+      "fontName": "QuickingRegular-gw5KY",
       "fontSize": 16,
       "horizontalAlignment": "Right",
       "id": "moth_graphics_version",
@@ -856,7 +856,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -38.0
             }
           ],
           "target": "TopOffset"
@@ -866,7 +866,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -11.0
             }
           ],
           "target": "BottomOffset"
@@ -876,7 +876,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -384.0
             }
           ],
           "target": "LeftOffset"
@@ -886,7 +886,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.0
+              "value": -29.0
             }
           ],
           "target": "RightOffset"
@@ -896,7 +896,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.9300000071525574
+              "value": 1.0
             }
           ],
           "target": "TopAnchor"
@@ -906,7 +906,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.9800000190734863
+              "value": 1.0
             }
           ],
           "target": "BottomAnchor"
@@ -916,7 +916,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.6000000238418579
+              "value": 1.0
             }
           ],
           "target": "LeftAnchor"
@@ -926,7 +926,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.9700000286102295
+              "value": 1.0
             }
           ],
           "target": "RightAnchor"

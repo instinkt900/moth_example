@@ -24,6 +24,7 @@ ExampleLayer::ExampleLayer(moth_ui::Context& context)
 bool ExampleLayer::OnEvent(moth_ui::Event const& event) {
     moth_ui::EventDispatch dispatch(event);
     dispatch.Dispatch(this, &ExampleLayer::OnRequestQuitEvent);
+    dispatch.Dispatch(this, &ExampleLayer::OnKeyEvent);
     dispatch.Dispatch(this, &ExampleLayer::OnNextPageEvent);
     dispatch.Dispatch(this, &ExampleLayer::OnPrevPageEvent);
     bool handled = dispatch.GetHandled();
@@ -71,9 +72,24 @@ void ExampleLayer::OnRemovedFromStack() {
     Layer::OnRemovedFromStack();
 }
 
+std::string_view ExampleLayer::GetPageTitle() const {
+    if (m_currentScreen) {
+        return m_currentScreen->GetTitle();
+    }
+    return "";
+}
+
 bool ExampleLayer::OnRequestQuitEvent(moth_graphics::EventRequestQuit const& event) {
     m_layerStack->FireEvent(moth_graphics::EventQuit());
     return true;
+}
+
+bool ExampleLayer::OnKeyEvent(moth_ui::EventKey const& event) {
+    if (event.GetAction() == moth_ui::KeyAction::Down && event.GetKey() == moth_ui::Key::Escape) {
+        m_layerStack->FireEvent(moth_graphics::EventQuit());
+        return true;
+    }
+    return false;
 }
 
 bool ExampleLayer::OnNextPageEvent(EventNextPage const& event) {
@@ -87,7 +103,8 @@ bool ExampleLayer::OnPrevPageEvent(EventPrevPage const& event) {
 }
 
 std::unique_ptr<IScreen> ExampleLayer::MakeScreen(int index) {
-    return screens.at(std::clamp<int>(index, 0, screens.size() - 1))(m_context, *this);
+    auto const ctor = screens.at(std::clamp<int>(index, 0, screens.size() - 1));
+    return ctor(m_context, *this);
 }
 
 void ExampleLayer::LoadScreen(int index) {
@@ -97,6 +114,7 @@ void ExampleLayer::LoadScreen(int index) {
     } else {
         m_currentScreen = MakeScreen(m_currentIndex);
         m_root = m_currentScreen->GetRoot();
+        m_layerStack->FireEvent(EventPageChanged{});
         m_currentScreen->Activate();
     }
 }

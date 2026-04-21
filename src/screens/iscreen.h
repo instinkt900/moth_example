@@ -16,4 +16,6 @@ public:
     virtual void Draw() = 0;
 
     virtual std::shared_ptr<moth_ui::Group> GetRoot() = 0;
+
+    virtual std::string_view GetTitle() const = 0;
 };

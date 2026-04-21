@@ -6,6 +6,7 @@
 enum ExampleEventType : int {
     EVENTTYPE_NEXTPAGE = moth_graphics::EVENTTYPE_GRAPHICSUSER0,
     EVENTTYPE_PREVPAGE,
+    EVENTTYPE_PAGECHANGED,
 };
 
 class EventNextPage : public moth_ui::Event {
@@ -31,5 +32,18 @@ public:
 
     std::unique_ptr<Event> Clone() const override {
         return std::make_unique<EventNextPage>();
+    }
+};
+
+class EventPageChanged : public moth_ui::Event {
+public:
+    EventPageChanged()
+        : Event(GetStaticType()) {}
+    ~EventPageChanged() override = default;
+
+    static constexpr int GetStaticType() { return EVENTTYPE_PAGECHANGED; }
+
+    std::unique_ptr<Event> Clone() const override {
+        return std::make_unique<EventPageChanged>();
     }
 };

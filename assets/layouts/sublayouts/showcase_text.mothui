@@ -160,7 +160,7 @@
         0,
         0
       ],
-      "fontName": "GorillaBeerBase",
+      "fontName": "QuickingRegular-gw5KY",
       "fontSize": 24,
       "horizontalAlignment": "Left",
       "id": "",
@@ -319,7 +319,7 @@
         0,
         0
       ],
-      "fontName": "BlackManta",
+      "fontName": "QuickingRegular-gw5KY",
       "fontSize": 24,
       "horizontalAlignment": "Center",
       "id": "",
@@ -327,7 +327,7 @@
         0.5,
         0.5
       ],
-      "text": "Lorem ipsom blah blah blah.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a purus vitae enim posuere maximus ut nec diam. Nunc accumsan bibendum nulla in aliquam. Integer gravida posuere dolor, eu pretium elit gravida ac. Sed in placerat nisl.",
       "tracks": [
         {
           "keyframes": [

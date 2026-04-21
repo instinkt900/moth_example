@@ -5,6 +5,7 @@
 #include <moth_ui/moth_ui_fwd.h>
 #include <moth_ui/layers/layer.h>
 #include <moth_ui/utils/vector.h>
+#include <moth_ui/events/event_key.h>
 #include <moth_graphics/events/event_window.h>
 
 class ExampleLayer : public moth_ui::Layer {
@@ -19,11 +20,14 @@ public:
     void OnAddedToStack(moth_ui::LayerStack* stack) override;
     void OnRemovedFromStack() override;
 
+    std::string_view GetPageTitle() const;
+
 protected:
     moth_ui::Context& m_context;
     std::shared_ptr<moth_ui::Group> m_root;
 
     bool OnRequestQuitEvent(moth_graphics::EventRequestQuit const& event);
+    bool OnKeyEvent(moth_ui::EventKey const& event);
     bool OnNextPageEvent(EventNextPage const& event);
     bool OnPrevPageEvent(EventPrevPage const& event);
 

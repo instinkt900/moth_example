@@ -1,13 +1,16 @@
 #pragma once
 
+#include "events.h"
 #include <moth_ui/moth_ui_fwd.h>
 #include <moth_ui/layers/layer.h>
 #include <moth_ui/utils/vector.h>
 #include <moth_graphics/events/event_window.h>
 
+class ExampleLayer;
+
 class ChromeLayer : public moth_ui::Layer {
 public:
-    ChromeLayer(moth_ui::Context& context);
+    ChromeLayer(moth_ui::Context& context, ExampleLayer const& displayLayer);
     ~ChromeLayer() override = default;
     
     bool OnEvent(moth_ui::Event const& event) override;
@@ -20,6 +23,10 @@ public:
 protected:
     moth_ui::Context& m_context;
     std::shared_ptr<moth_ui::Group> m_root;
+    ExampleLayer const& m_displayLayer;
+
+    std::shared_ptr<moth_ui::NodeText> m_titleNode;
 
     bool LayoutEvent(moth_ui::Node* node, moth_ui::Event const& event);
+    bool OnPageChanged(EventPageChanged const& event);
 };

@@ -160,7 +160,7 @@
         0,
         0
       ],
-      "fontName": "GorillaBeerBase",
+      "fontName": "QuickingRegular-gw5KY",
       "fontSize": 24,
       "horizontalAlignment": "Left",
       "id": "",
@@ -307,7 +307,7 @@
     },
     {
       "blend": "Replace",
-      "class": "",
+      "class": "idler",
       "id": "",
       "layoutPath": "clip_test.mothui",
       "pivot": [

@@ -13,6 +13,7 @@ if (MSVC)
 endif()
 
 set(SOURCES ${SOURCES}
+	src/screens/screen.cpp
 	src/screens/screen_title.cpp
 	src/screens/screen_node.cpp
 	src/screens/screen_anim.cpp
