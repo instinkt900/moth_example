@@ -5,6 +5,7 @@
 #include <moth_ui/layers/layer.h>
 #include <moth_ui/utils/vector.h>
 #include <moth_graphics/events/event_window.h>
+#include <vector>
 
 class ExampleLayer;
 
@@ -26,6 +27,7 @@ protected:
     ExampleLayer const& m_displayLayer;
 
     std::shared_ptr<moth_ui::NodeText> m_titleNode;
+    std::vector<std::shared_ptr<moth_ui::Node>> m_dots;
 
     bool LayoutEvent(moth_ui::Node* node, moth_ui::Event const& event);
     bool OnPageChanged(EventPageChanged const& event);

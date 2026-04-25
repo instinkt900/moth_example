@@ -1,45 +1,331 @@
 {
-    "clips": [
+  "clips": [
+    {
+      "frames": [
         {
-            "end": 31,
-            "fps": 12,
-            "loop": "loop",
-            "name": "default",
-            "start": 0
+          "duration_ms": 100,
+          "frame": 0
         },
         {
-            "end": 7,
-            "fps": 12,
-            "loop": "loop",
-            "name": "run_forward",
-            "start": 0
+          "duration_ms": 100,
+          "frame": 1
         },
         {
-            "end": 15,
-            "fps": 12,
-            "loop": "loop",
-            "name": "run_left",
-            "start": 8
+          "duration_ms": 100,
+          "frame": 2
         },
         {
-            "end": 23,
-            "fps": 12,
-            "loop": "loop",
-            "name": "run_right",
-            "start": 16
+          "duration_ms": 100,
+          "frame": 3
         },
         {
-            "end": 31,
-            "fps": 12,
-            "loop": "loop",
-            "name": "run_back",
-            "start": 24 
+          "duration_ms": 100,
+          "frame": 4
+        },
+        {
+          "duration_ms": 100,
+          "frame": 5
+        },
+        {
+          "duration_ms": 100,
+          "frame": 6
+        },
+        {
+          "duration_ms": 100,
+          "frame": 7
+        },
+        {
+          "duration_ms": 100,
+          "frame": 8
+        },
+        {
+          "duration_ms": 100,
+          "frame": 9
         }
-    ],
-    "frame_cols": 6,
-    "frame_height": 60,
-    "frame_rows": 6,
-    "frame_width": 65,
-    "image": "character.png",
-    "max_frames": 32
+      ],
+      "loop": "loop",
+      "name": "idle"
+    },
+    {
+      "frames": [
+        {
+          "duration_ms": 100,
+          "frame": 10
+        },
+        {
+          "duration_ms": 100,
+          "frame": 11
+        },
+        {
+          "duration_ms": 100,
+          "frame": 12
+        },
+        {
+          "duration_ms": 100,
+          "frame": 13
+        },
+        {
+          "duration_ms": 100,
+          "frame": 14
+        },
+        {
+          "duration_ms": 100,
+          "frame": 15
+        },
+        {
+          "duration_ms": 100,
+          "frame": 16
+        },
+        {
+          "duration_ms": 100,
+          "frame": 17
+        },
+        {
+          "duration_ms": 100,
+          "frame": 18
+        },
+        {
+          "duration_ms": 100,
+          "frame": 19
+        },
+        {
+          "duration_ms": 100,
+          "frame": 20
+        },
+        {
+          "duration_ms": 100,
+          "frame": 21
+        },
+        {
+          "duration_ms": 100,
+          "frame": 22
+        },
+        {
+          "duration_ms": 100,
+          "frame": 23
+        },
+        {
+          "duration_ms": 100,
+          "frame": 24
+        },
+        {
+          "duration_ms": 100,
+          "frame": 25
+        }
+      ],
+      "loop": "loop",
+      "name": "run"
+    }
+  ],
+  "frames": [
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 0
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 96
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 96
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 192
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 192
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 288
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 288
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 384
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 384
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 480
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 480
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 576
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 576
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 672
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 672
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 768
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 768
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 864
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 864
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 960
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 960
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 1056
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 1056
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 0,
+      "y": 1152
+    },
+    {
+      "h": 96,
+      "pivot_x": 48,
+      "pivot_y": 96,
+      "w": 96,
+      "x": 96,
+      "y": 1152
+    }
+  ],
+  "image": "character.png"
 }

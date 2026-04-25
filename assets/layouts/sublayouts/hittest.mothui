@@ -1,0 +1,372 @@
+{
+  "blend": "Replace",
+  "children": [
+    {
+      "blend": "Alpha",
+      "class": "",
+      "filled": true,
+      "id": "",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 20,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 21,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 20,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 21,
+              "interp": "Linear",
+              "value": 0.8549019694328308
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 20,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            },
+            {
+              "frame": 21,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.4313725531101227
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.250980406999588
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.250980406999588
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.501960813999176
+            },
+            {
+              "frame": 20,
+              "interp": "Linear",
+              "value": 0.501960813999176
+            },
+            {
+              "frame": 21,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.501960813999176
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 9,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 31,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Rect",
+      "visible": true
+    }
+  ],
+  "class": "hittest",
+  "clips": [
+    {
+      "m_endFrame": 9,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "idle",
+      "m_startFrame": 0
+    },
+    {
+      "m_endFrame": 20,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "hover",
+      "m_startFrame": 10
+    },
+    {
+      "m_endFrame": 31,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "click",
+      "m_startFrame": 21
+    }
+  ],
+  "events": [],
+  "extra_data": {
+    "animation_panel": {
+      "m_maxFrame": 122,
+      "m_totalFrames": 600
+    }
+  },
+  "mothui_version": 1,
+  "type": "Layout"
+}

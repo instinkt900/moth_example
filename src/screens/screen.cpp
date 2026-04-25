@@ -33,12 +33,20 @@ void Screen::Activate() {
 }
 
 void Screen::Deactivate(std::function<void()> const& onComplete) {
-    if (m_root) {
-        m_deactivateAction = onComplete;
+    m_deactivateAction = onComplete;
+    if (m_root && m_root->HasAnimation(DeactivateAnimName)) {
         m_root->SetAnimation(DeactivateAnimName);
     } else {
         m_deactivateAction();
     }
+}
+
+bool Screen::OnEvent(moth_ui::Event const& event) {
+    bool result = false;
+    if (m_root) {
+        result = m_root->SendEventDown(event);
+    }
+    return result;
 }
 
 void Screen::Update(uint32_t ticks) {

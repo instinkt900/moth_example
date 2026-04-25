@@ -1,7 +1,10 @@
 #include "example_layer.h"
 #include "screens/screen_anim.h"
+#include "screens/screen_flipbook.h"
 #include "screens/screen_node.h"
+#include "screens/screen_sublayouts.h"
 #include "screens/screen_title.h"
+#include "screens/screen_events.h"
 
 #include <moth_ui/moth_ui.h>
 
@@ -11,10 +14,13 @@ std::unique_ptr<IScreen> MakeScreenOf(moth_ui::Context& ctx, moth_ui::Layer cons
     return std::make_unique<T>(ctx, layer);
 }
 
-static constexpr std::array<ScreenCtor, 3> screens = { {
+static constexpr std::array<ScreenCtor, 6> screens = { {
     &MakeScreenOf<ScreenTitle>,
     &MakeScreenOf<ScreenNode>,
     &MakeScreenOf<ScreenAnim>,
+    &MakeScreenOf<ScreenEvents>,
+    &MakeScreenOf<ScreenSublayouts>,
+    &MakeScreenOf<ScreenFlipbook>,
 } };
 
 ExampleLayer::ExampleLayer(moth_ui::Context& context)
@@ -27,11 +33,8 @@ bool ExampleLayer::OnEvent(moth_ui::Event const& event) {
     dispatch.Dispatch(this, &ExampleLayer::OnKeyEvent);
     dispatch.Dispatch(this, &ExampleLayer::OnNextPageEvent);
     dispatch.Dispatch(this, &ExampleLayer::OnPrevPageEvent);
-    bool handled = dispatch.GetHandled();
-    if (!handled && m_root) {
-        handled = m_root->SendEvent(event, moth_ui::Node::EventDirection::Down);
-    }
-    return handled;
+    dispatch.Dispatch(m_currentScreen.get());
+    return dispatch.GetHandled();
 }
 
 void ExampleLayer::Update(uint32_t ticks) {
@@ -72,6 +75,14 @@ void ExampleLayer::OnRemovedFromStack() {
     Layer::OnRemovedFromStack();
 }
 
+int ExampleLayer::GetNumPages() const {
+    return screens.size();
+}
+
+int ExampleLayer::GetCurPageNo() const {
+    return m_currentIndex;
+}
+
 std::string_view ExampleLayer::GetPageTitle() const {
     if (m_currentScreen) {
         return m_currentScreen->GetTitle();
@@ -108,7 +119,8 @@ std::unique_ptr<IScreen> ExampleLayer::MakeScreen(int index) {
 }
 
 void ExampleLayer::LoadScreen(int index) {
-    m_currentIndex = std::clamp<int>(index, 0, screens.size() - 1);
+    int const numScreens = GetNumPages();
+    m_currentIndex = ((index % numScreens) + numScreens) % numScreens;
     if (m_currentScreen) {
         m_currentScreen->Deactivate([this]() { m_currentScreen = nullptr; LoadScreen(m_currentIndex); });
     } else {

@@ -1,0 +1,244 @@
+{
+  "blend": "Replace",
+  "children": [
+    {
+      "blend": "Alpha",
+      "class": "",
+      "id": "dot_0",
+      "imagePath": "../../images/button_back.png",
+      "imageScale": 1.0,
+      "imageScaleType": "Stretch",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "sourceBorders": {
+        "bottomRight": [
+          0,
+          0
+        ],
+        "topLeft": [
+          0,
+          0
+        ]
+      },
+      "sourceRect": {
+        "bottomRight": [
+          0,
+          0
+        ],
+        "topLeft": [
+          0,
+          0
+        ]
+      },
+      "targetBorders": {
+        "anchor": {
+          "bottomRight": [
+            1.0,
+            1.0
+          ],
+          "topLeft": [
+            0.0,
+            0.0
+          ]
+        },
+        "offset": {
+          "bottomRight": [
+            0.0,
+            0.0
+          ],
+          "topLeft": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "textureFilter": 0,
+      "tracks": [
+        {
+          "keyframes": [],
+          "target": "Events"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.0
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 1.0
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 1.0
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.30000001192092896
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.6000000238418579
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.36000001430511475
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.7223528623580933
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.5
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.550000011920929
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.5490196347236633
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Step",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Image",
+      "visible": true
+    }
+  ],
+  "class": "",
+  "clips": [
+    {
+      "m_endFrame": 19,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "high",
+      "m_startFrame": 10
+    },
+    {
+      "m_endFrame": 9,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "low",
+      "m_startFrame": 0
+    }
+  ],
+  "events": [],
+  "extra_data": {
+    "animation_panel": {
+      "m_maxFrame": 122,
+      "m_totalFrames": 600
+    }
+  },
+  "mothui_version": 1,
+  "type": "Layout"
+}

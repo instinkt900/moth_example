@@ -20,6 +20,8 @@ public:
     void OnAddedToStack(moth_ui::LayerStack* stack) override;
     void OnRemovedFromStack() override;
 
+    int GetNumPages() const;
+    int GetCurPageNo() const;
     std::string_view GetPageTitle() const;
 
 protected:

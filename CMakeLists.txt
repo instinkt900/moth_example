@@ -15,10 +15,15 @@ endif()
 set(SOURCES ${SOURCES}
 	src/screens/screen.cpp
 	src/screens/screen_title.cpp
+	src/screens/screen_events.cpp
 	src/screens/screen_node.cpp
 	src/screens/screen_anim.cpp
+	src/screens/screen_sublayouts.cpp
+	src/screens/screen_flipbook.cpp
 	src/widgets/ui_button.cpp
 	src/widgets/idler.cpp
+	src/widgets/hittest.cpp
+	src/widgets/textoutput.cpp
 	src/chrome_layer.cpp
 	src/example_application.cpp
 	src/example_layer.cpp

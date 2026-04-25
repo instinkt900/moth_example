@@ -5,9 +5,9 @@
 #include <memory>
 #include <moth_ui/nodes/group.h>
 
-class IScreen {
+class IScreen : public moth_ui::EventListener {
 public:
-    virtual ~IScreen() = default;
+    ~IScreen() override = default;
 
     virtual void Activate() = 0;
     virtual void Deactivate(std::function<void()> const& onComplete) = 0;

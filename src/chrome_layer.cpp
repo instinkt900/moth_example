@@ -3,6 +3,7 @@
 #include "example_layer.h"
 #include "widgets/ui_button.h"
 #include <moth_ui/moth_ui.h>
+#include <spdlog/spdlog.h>
 
 ChromeLayer::ChromeLayer(moth_ui::Context& context, ExampleLayer const& displayLayer)
     : m_context(context)
@@ -29,6 +30,11 @@ ChromeLayer::ChromeLayer(moth_ui::Context& context, ExampleLayer const& displayL
         prevButton->SetClickAction([&]() {
             m_layerStack->FireEvent(EventPrevPage{});
         });
+    }
+
+    m_dots.resize(m_displayLayer.GetNumPages());
+    for (auto i = 0; i < m_dots.size(); ++i) {
+        m_dots[i] = m_root->FindChild(fmt::format("dot_{:02d}", i+1));
     }
 }
 
@@ -72,6 +78,7 @@ void ChromeLayer::OnAddedToStack(moth_ui::LayerStack* stack) {
         rect.bottomRight = { GetWidth(), GetHeight() };
         m_root->SetScreenRect(rect);
     }
+    OnPageChanged(EventPageChanged{});
 }
 
 void ChromeLayer::OnRemovedFromStack() {
@@ -85,6 +92,13 @@ bool ChromeLayer::LayoutEvent(moth_ui::Node* node, moth_ui::Event const& event) 
 bool ChromeLayer::OnPageChanged(EventPageChanged const& event) {
     if (m_titleNode) {
         m_titleNode->SetText(m_displayLayer.GetPageTitle());
+    }
+    auto const index = m_displayLayer.GetCurPageNo();
+    for (auto i = 0; i < m_dots.size(); ++i) {
+        auto& dot = m_dots[i];
+        if (dot) {
+            dot->SetAnimation(i == index ? "high" : "low");
+        }
     }
     return true;
 }

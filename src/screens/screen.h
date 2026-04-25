@@ -10,6 +10,7 @@ public:
     void Activate() override;
     void Deactivate(std::function<void()> const& onComplete) override;
 
+    bool OnEvent(moth_ui::Event const& event) override;
     void Update(uint32_t ticks) override;
     void Draw() override;
 

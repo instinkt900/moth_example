@@ -1,0 +1,1622 @@
+{
+  "blend": "Replace",
+  "children": [
+    {
+      "blend": "Replace",
+      "class": "",
+      "filled": true,
+      "id": "bg",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "tracks": [
+        {
+          "keyframes": [],
+          "target": "Events"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.03099999949336052
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0430000014603138
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.07800000160932541
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "SineInOut",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "SineInOut",
+              "value": 0.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Rect",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "",
+      "id": "sprite",
+      "layoutPath": "../sublayouts/sprite.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": null,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.31481480598449707
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.31481480598449707
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.31481480598449707
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.31481480598449707
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.6851851940155029
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.6851851940155029
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.6851851940155029
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.6851851940155029
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.3958333432674408
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.3958333432674408
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.3958333432674408
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.3958333432674408
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.6041666865348816
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.6041666865348816
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.6041666865348816
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.6041666865348816
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "button",
+      "id": "btn_run",
+      "layoutPath": "../chrome_button.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": [
+        {
+          "childIndex": 1,
+          "data": {
+            "text": "run"
+          },
+          "type": "Text"
+        }
+      ],
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.53125
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.53125
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.53125
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.53125
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.53125
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.53125
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.706250011920929
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.706250011920929
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.706250011920929
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.706250011920929
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.706250011920929
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.706250011920929
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "button",
+      "id": "btn_idle",
+      "layoutPath": "../chrome_button.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": [
+        {
+          "childIndex": 1,
+          "data": {
+            "text": "idle"
+          },
+          "type": "Text"
+        }
+      ],
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.800000011920929
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.8759258985519409
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.29374998807907104
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.29374998807907104
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.29374998807907104
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.29374998807907104
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.29374998807907104
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.29374998807907104
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.46875
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.46875
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.46875
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.46875
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.46875
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.46875
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 1.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 10,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 11,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 41,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 42,
+              "interp": "Linear",
+              "value": 0.0
+            },
+            {
+              "frame": 72,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
+    }
+  ],
+  "class": "",
+  "clips": [
+    {
+      "m_endFrame": 10,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "idle",
+      "m_startFrame": 0
+    },
+    {
+      "m_endFrame": 41,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "activate",
+      "m_startFrame": 11
+    },
+    {
+      "m_endFrame": 72,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "deactivate",
+      "m_startFrame": 42
+    }
+  ],
+  "events": [],
+  "extra_data": {
+    "animation_panel": {
+      "m_maxFrame": 122,
+      "m_totalFrames": 600
+    }
+  },
+  "mothui_version": 1,
+  "type": "Layout"
+}

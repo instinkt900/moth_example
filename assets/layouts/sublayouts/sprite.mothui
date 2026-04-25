@@ -1,0 +1,200 @@
+{
+  "blend": "Replace",
+  "children": [
+    {
+      "blend": "Alpha",
+      "class": "",
+      "discrete_tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": "idle"
+            },
+            {
+              "frame": 11,
+              "value": "run"
+            }
+          ],
+          "target": "FlipbookClip"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": "1"
+            }
+          ],
+          "target": "FlipbookPlaying"
+        }
+      ],
+      "flipbook_path": "../../sprites/character.flipbook.json",
+      "id": "",
+      "pivot": [
+        0.5,
+        1.0
+      ],
+      "textureFilter": 1,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Flipbook",
+      "visible": true
+    }
+  ],
+  "class": "",
+  "clips": [
+    {
+      "m_endFrame": 10,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "idle",
+      "m_startFrame": 0
+    },
+    {
+      "m_endFrame": 21,
+      "m_fps": 30.0,
+      "m_loopType": "Stop",
+      "m_name": "run",
+      "m_startFrame": 11
+    }
+  ],
+  "events": [],
+  "extra_data": {
+    "animation_panel": {
+      "m_maxFrame": 122,
+      "m_totalFrames": 600
+    }
+  },
+  "mothui_version": 1,
+  "type": "Layout"
+}

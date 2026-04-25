@@ -623,64 +623,16 @@
       "visible": true
     },
     {
-      "blend": "Alpha",
+      "blend": "Replace",
       "class": "",
-      "id": "dot_0",
-      "imagePath": "../images/button_back.png",
-      "imageScale": 1.0,
-      "imageScaleType": "Stretch",
+      "id": "dot_01",
+      "layoutPath": "sublayouts/dot.mothui",
       "pivot": [
         0.5,
         0.5
       ],
-      "sourceBorders": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "sourceRect": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "targetBorders": {
-        "anchor": {
-          "bottomRight": [
-            1.0,
-            1.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        },
-        "offset": {
-          "bottomRight": [
-            0.0,
-            0.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        }
-      },
-      "textureFilter": 0,
+      "propertyOverrides": null,
       "tracks": [
-        {
-          "keyframes": [],
-          "target": "Events"
-        },
         {
           "keyframes": [
             {
@@ -766,7 +718,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.30000001192092896
+              "value": 1.0
             }
           ],
           "target": "ColorRed"
@@ -776,7 +728,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.36000001430511475
+              "value": 1.0
             }
           ],
           "target": "ColorGreen"
@@ -786,7 +738,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
+              "value": 1.0
             }
           ],
           "target": "ColorBlue"
@@ -796,7 +748,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.550000011920929
+              "value": 1.0
             }
           ],
           "target": "ColorAlpha"
@@ -812,68 +764,20 @@
           "target": "Rotation"
         }
       ],
-      "type": "Image",
+      "type": "Ref",
       "visible": true
     },
     {
-      "blend": "Alpha",
+      "blend": "Replace",
       "class": "",
-      "id": "dot_1",
-      "imagePath": "../images/button_back.png",
-      "imageScale": 1.0,
-      "imageScaleType": "Stretch",
+      "id": "dot_02",
+      "layoutPath": "sublayouts/dot.mothui",
       "pivot": [
         0.5,
         0.5
       ],
-      "sourceBorders": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "sourceRect": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "targetBorders": {
-        "anchor": {
-          "bottomRight": [
-            1.0,
-            1.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        },
-        "offset": {
-          "bottomRight": [
-            0.0,
-            0.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        }
-      },
-      "textureFilter": 0,
+      "propertyOverrides": null,
       "tracks": [
-        {
-          "keyframes": [],
-          "target": "Events"
-        },
         {
           "keyframes": [
             {
@@ -959,7 +863,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.30000001192092896
+              "value": 1.0
             }
           ],
           "target": "ColorRed"
@@ -969,7 +873,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.36000001430511475
+              "value": 1.0
             }
           ],
           "target": "ColorGreen"
@@ -979,7 +883,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
+              "value": 1.0
             }
           ],
           "target": "ColorBlue"
@@ -989,7 +893,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.550000011920929
+              "value": 1.0
             }
           ],
           "target": "ColorAlpha"
@@ -1005,68 +909,20 @@
           "target": "Rotation"
         }
       ],
-      "type": "Image",
+      "type": "Ref",
       "visible": true
     },
     {
-      "blend": "Alpha",
+      "blend": "Replace",
       "class": "",
-      "id": "dot_2",
-      "imagePath": "../images/button_back.png",
-      "imageScale": 1.0,
-      "imageScaleType": "Stretch",
+      "id": "dot_03",
+      "layoutPath": "sublayouts/dot.mothui",
       "pivot": [
         0.5,
         0.5
       ],
-      "sourceBorders": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "sourceRect": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "targetBorders": {
-        "anchor": {
-          "bottomRight": [
-            1.0,
-            1.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        },
-        "offset": {
-          "bottomRight": [
-            0.0,
-            0.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        }
-      },
-      "textureFilter": 0,
+      "propertyOverrides": null,
       "tracks": [
-        {
-          "keyframes": [],
-          "target": "Events"
-        },
         {
           "keyframes": [
             {
@@ -1152,7 +1008,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.30000001192092896
+              "value": 1.0
             }
           ],
           "target": "ColorRed"
@@ -1162,7 +1018,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.36000001430511475
+              "value": 1.0
             }
           ],
           "target": "ColorGreen"
@@ -1172,7 +1028,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
+              "value": 1.0
             }
           ],
           "target": "ColorBlue"
@@ -1182,7 +1038,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.550000011920929
+              "value": 1.0
             }
           ],
           "target": "ColorAlpha"
@@ -1198,68 +1054,20 @@
           "target": "Rotation"
         }
       ],
-      "type": "Image",
+      "type": "Ref",
       "visible": true
     },
     {
-      "blend": "Alpha",
+      "blend": "Replace",
       "class": "",
-      "id": "dot_3",
-      "imagePath": "../images/button_back.png",
-      "imageScale": 1.0,
-      "imageScaleType": "Stretch",
+      "id": "dot_04",
+      "layoutPath": "sublayouts/dot.mothui",
       "pivot": [
         0.5,
         0.5
       ],
-      "sourceBorders": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "sourceRect": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "targetBorders": {
-        "anchor": {
-          "bottomRight": [
-            1.0,
-            1.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        },
-        "offset": {
-          "bottomRight": [
-            0.0,
-            0.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        }
-      },
-      "textureFilter": 0,
+      "propertyOverrides": null,
       "tracks": [
-        {
-          "keyframes": [],
-          "target": "Events"
-        },
         {
           "keyframes": [
             {
@@ -1345,7 +1153,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.30000001192092896
+              "value": 1.0
             }
           ],
           "target": "ColorRed"
@@ -1355,7 +1163,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.36000001430511475
+              "value": 1.0
             }
           ],
           "target": "ColorGreen"
@@ -1365,7 +1173,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
+              "value": 1.0
             }
           ],
           "target": "ColorBlue"
@@ -1375,7 +1183,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.550000011920929
+              "value": 1.0
             }
           ],
           "target": "ColorAlpha"
@@ -1391,68 +1199,20 @@
           "target": "Rotation"
         }
       ],
-      "type": "Image",
+      "type": "Ref",
       "visible": true
     },
     {
-      "blend": "Alpha",
+      "blend": "Replace",
       "class": "",
-      "id": "dot_4",
-      "imagePath": "../images/button_back.png",
-      "imageScale": 1.0,
-      "imageScaleType": "Stretch",
+      "id": "dot_05",
+      "layoutPath": "sublayouts/dot.mothui",
       "pivot": [
         0.5,
         0.5
       ],
-      "sourceBorders": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "sourceRect": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "targetBorders": {
-        "anchor": {
-          "bottomRight": [
-            1.0,
-            1.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        },
-        "offset": {
-          "bottomRight": [
-            0.0,
-            0.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        }
-      },
-      "textureFilter": 0,
+      "propertyOverrides": null,
       "tracks": [
-        {
-          "keyframes": [],
-          "target": "Events"
-        },
         {
           "keyframes": [
             {
@@ -1538,7 +1298,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.30000001192092896
+              "value": 1.0
             }
           ],
           "target": "ColorRed"
@@ -1548,7 +1308,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.36000001430511475
+              "value": 1.0
             }
           ],
           "target": "ColorGreen"
@@ -1558,7 +1318,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
+              "value": 1.0
             }
           ],
           "target": "ColorBlue"
@@ -1568,7 +1328,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.550000011920929
+              "value": 1.0
             }
           ],
           "target": "ColorAlpha"
@@ -1584,68 +1344,20 @@
           "target": "Rotation"
         }
       ],
-      "type": "Image",
+      "type": "Ref",
       "visible": true
     },
     {
-      "blend": "Alpha",
+      "blend": "Replace",
       "class": "",
-      "id": "dot_5",
-      "imagePath": "../images/button_back.png",
-      "imageScale": 1.0,
-      "imageScaleType": "Stretch",
+      "id": "dot_06",
+      "layoutPath": "sublayouts/dot.mothui",
       "pivot": [
         0.5,
         0.5
       ],
-      "sourceBorders": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "sourceRect": {
-        "bottomRight": [
-          0,
-          0
-        ],
-        "topLeft": [
-          0,
-          0
-        ]
-      },
-      "targetBorders": {
-        "anchor": {
-          "bottomRight": [
-            1.0,
-            1.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        },
-        "offset": {
-          "bottomRight": [
-            0.0,
-            0.0
-          ],
-          "topLeft": [
-            0.0,
-            0.0
-          ]
-        }
-      },
-      "textureFilter": 0,
+      "propertyOverrides": null,
       "tracks": [
-        {
-          "keyframes": [],
-          "target": "Events"
-        },
         {
           "keyframes": [
             {
@@ -1731,7 +1443,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.30000001192092896
+              "value": 1.0
             }
           ],
           "target": "ColorRed"
@@ -1741,7 +1453,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.36000001430511475
+              "value": 1.0
             }
           ],
           "target": "ColorGreen"
@@ -1751,7 +1463,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.5
+              "value": 1.0
             }
           ],
           "target": "ColorBlue"
@@ -1761,7 +1473,7 @@
             {
               "frame": 0,
               "interp": "Linear",
-              "value": 0.550000011920929
+              "value": 1.0
             }
           ],
           "target": "ColorAlpha"
@@ -1777,7 +1489,7 @@
           "target": "Rotation"
         }
       ],
-      "type": "Image",
+      "type": "Ref",
       "visible": true
     }
   ],
