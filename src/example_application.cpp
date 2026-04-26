@@ -54,7 +54,6 @@ void ExampleApplication::PostCreateWindow() {
     m_window->GetMothContext().GetFontFactory().LoadProject("assets/fonts.json");
     auto exampleLayer = std::make_unique<ExampleLayer>(m_window->GetMothContext());
     auto chromeLayer = std::make_unique<ChromeLayer>(m_window->GetMothContext(), *exampleLayer);
-    m_window->GetLayerStack().PushLayer(std::move(exampleLayer));
-    m_window->GetLayerStack().PushLayer(std::move(chromeLayer));
-    m_window->GetLayerStack().SetEventListener(this);
+    m_window->PushLayer(std::move(exampleLayer));
+    m_window->PushLayer(std::move(chromeLayer));
 }

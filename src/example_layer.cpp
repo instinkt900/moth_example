@@ -68,7 +68,6 @@ void ExampleLayer::OnAddedToStack(moth_ui::LayerStack* stack) {
         rect.bottomRight = { GetWidth(), GetHeight() };
         m_root->SetScreenRect(rect);
     }
-    stack->SetEventListener(this);
 }
 
 void ExampleLayer::OnRemovedFromStack() {
@@ -91,13 +90,13 @@ std::string_view ExampleLayer::GetPageTitle() const {
 }
 
 bool ExampleLayer::OnRequestQuitEvent(moth_graphics::EventRequestQuit const& event) {
-    m_layerStack->FireEvent(moth_graphics::EventQuit());
+    FireEvent(moth_graphics::EventQuit());
     return true;
 }
 
 bool ExampleLayer::OnKeyEvent(moth_ui::EventKey const& event) {
     if (event.GetAction() == moth_ui::KeyAction::Down && event.GetKey() == moth_ui::Key::Escape) {
-        m_layerStack->FireEvent(moth_graphics::EventQuit());
+        FireEvent(moth_graphics::EventQuit());
         return true;
     }
     return false;
@@ -126,7 +125,7 @@ void ExampleLayer::LoadScreen(int index) {
     } else {
         m_currentScreen = MakeScreen(m_currentIndex);
         m_root = m_currentScreen->GetRoot();
-        m_layerStack->FireEvent(EventPageChanged{});
+        FireEvent(EventPageChanged{});
         m_currentScreen->Activate();
     }
 }

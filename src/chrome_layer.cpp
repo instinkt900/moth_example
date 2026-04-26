@@ -23,12 +23,12 @@ ChromeLayer::ChromeLayer(moth_ui::Context& context, ExampleLayer const& displayL
 
     if (nextButton) {
         nextButton->SetClickAction([&]() {
-            m_layerStack->FireEvent(EventNextPage{});
+            FireEvent(EventNextPage{});
         });
     }
     if (prevButton) {
         prevButton->SetClickAction([&]() {
-            m_layerStack->FireEvent(EventPrevPage{});
+            FireEvent(EventPrevPage{});
         });
     }
 
@@ -43,9 +43,9 @@ bool ChromeLayer::OnEvent(moth_ui::Event const& event) {
     dispatch.Dispatch(this, &ChromeLayer::OnPageChanged);
     bool handled = dispatch.GetHandled();
     if (!handled && m_root) {
-        handled = m_root->SendEvent(event, moth_ui::Node::EventDirection::Down);
+        handled = m_root->Broadcast(event);
     }
-    return dispatch.GetHandled();
+    return handled;
 }
 
 void ChromeLayer::Update(uint32_t ticks) {

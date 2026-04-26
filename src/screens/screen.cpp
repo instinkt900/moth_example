@@ -44,7 +44,7 @@ void Screen::Deactivate(std::function<void()> const& onComplete) {
 bool Screen::OnEvent(moth_ui::Event const& event) {
     bool result = false;
     if (m_root) {
-        result = m_root->SendEventDown(event);
+        result = m_root->Broadcast(event);
     }
     return result;
 }
