@@ -5,7 +5,7 @@
 #include <memory>
 #include <moth_ui/nodes/group.h>
 
-class IScreen : public moth_ui::EventListener {
+class IScreen : public moth_ui::IEventListener {
 public:
     ~IScreen() override = default;
 
