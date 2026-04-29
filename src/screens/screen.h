@@ -25,6 +25,7 @@ protected:
 
     virtual void OnActivate() {}
     virtual void OnDeactivate() {}
+    virtual bool OnAnimEvent(moth_ui::EventAnimation const& event) { return false; }
 
 private:
     std::function<void()> m_deactivateAction;

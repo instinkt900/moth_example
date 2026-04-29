@@ -4770,14 +4770,19 @@
   "class": "",
   "clips": [
     {
-      "m_endFrame": 120,
-      "m_fps": 30.0,
-      "m_loopType": "Loop",
-      "m_name": "idle",
-      "m_startFrame": 0
+      "endFrame": 120,
+      "fps": 30.0,
+      "loopType": "Loop",
+      "name": "idle",
+      "startFrame": 0
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "frame": 60,
+      "name": "event01"
+    }
+  ],
   "extra_data": {
     "animation_panel": {
       "m_maxFrame": 214,

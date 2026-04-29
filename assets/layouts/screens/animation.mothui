@@ -13,7 +13,7 @@
       "tracks": [
         {
           "keyframes": [],
-          "target": "Events"
+          "target": "Unknown"
         },
         {
           "keyframes": [
@@ -151,7 +151,7 @@
     },
     {
       "blend": "Replace",
-      "class": "idler",
+      "class": "",
       "id": "anim_table",
       "layoutPath": "../sublayouts/anim_tracks.mothui",
       "pivot": [
@@ -573,30 +573,175 @@
       ],
       "type": "Ref",
       "visible": true
+    },
+    {
+      "blend": "Replace",
+      "class": "",
+      "id": "event_notif",
+      "layoutPath": "../sublayouts/event_trigger.mothui",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "propertyOverrides": null,
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "TopOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "BottomOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "LeftOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "RightOffset"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.8296296000480652
+            }
+          ],
+          "target": "TopAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.9037036895751953
+            }
+          ],
+          "target": "BottomAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.9177083373069763
+            }
+          ],
+          "target": "LeftAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.9593750238418579
+            }
+          ],
+          "target": "RightAnchor"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorRed"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorGreen"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorBlue"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 1.0
+            }
+          ],
+          "target": "ColorAlpha"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "interp": "Linear",
+              "value": 0.0
+            }
+          ],
+          "target": "Rotation"
+        }
+      ],
+      "type": "Ref",
+      "visible": true
     }
   ],
   "class": "",
   "clips": [
     {
-      "m_endFrame": 31,
-      "m_fps": 30.0,
-      "m_loopType": "Stop",
-      "m_name": "activate",
-      "m_startFrame": 1
+      "endFrame": 31,
+      "fps": 30.0,
+      "loopType": "Stop",
+      "name": "activate",
+      "startFrame": 1
     },
     {
-      "m_endFrame": 62,
-      "m_fps": 30.0,
-      "m_loopType": "Stop",
-      "m_name": "deactivate",
-      "m_startFrame": 32
+      "endFrame": 62,
+      "fps": 30.0,
+      "loopType": "Stop",
+      "name": "deactivate",
+      "startFrame": 32
     },
     {
-      "m_endFrame": 73,
-      "m_fps": 30.0,
-      "m_loopType": "Stop",
-      "m_name": "idle",
-      "m_startFrame": 63
+      "endFrame": 73,
+      "fps": 30.0,
+      "loopType": "Stop",
+      "name": "idle",
+      "startFrame": 63
     }
   ],
   "events": [],

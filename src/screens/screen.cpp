@@ -65,6 +65,7 @@ void Screen::Draw() {
 bool Screen::LayoutEvent(moth_ui::Node* node, moth_ui::Event const& event) {
     moth_ui::EventDispatch dispatch(event);
     dispatch.Dispatch(this, &Screen::OnAnimationStopped);
+    dispatch.Dispatch(this, &Screen::OnAnimEvent);
     return dispatch.GetHandled();
 }
 
