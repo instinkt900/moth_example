@@ -7,8 +7,10 @@
 
 ChromeLayer::ChromeLayer(moth_ui::Context& context, ExampleLayer const& displayLayer)
     : m_context(context)
+    , m_root(nullptr)
     , m_displayLayer(displayLayer) {
-    m_root = moth_ui::NodeFactory::Get().Create(m_context, "assets/layouts/chrome.mothui", GetWidth(), GetHeight());
+    auto [node, result] = moth_ui::NodeFactory::Get().Create(m_context, "assets/layouts/chrome.mothui", GetWidth(), GetHeight());
+    m_root = node; // NOLINT(cppcoreguidelines-prefer-member-initializer)
     m_root->SetEventHandler([this](moth_ui::Node* node, moth_ui::Event const& event) {
         return LayoutEvent(node, event);
     });
@@ -34,7 +36,7 @@ ChromeLayer::ChromeLayer(moth_ui::Context& context, ExampleLayer const& displayL
 
     m_dots.resize(m_displayLayer.GetNumPages());
     for (auto i = 0; i < m_dots.size(); ++i) {
-        m_dots[i] = m_root->FindChild(fmt::format("dot_{:02d}", i+1));
+        m_dots[i] = m_root->FindChild(fmt::format("dot_{:02d}", i + 1));
     }
 }
 

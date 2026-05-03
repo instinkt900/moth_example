@@ -16,7 +16,8 @@ static const std::string_view IdleAnimName = "idle";
 Screen::Screen(moth_ui::Context& context, moth_ui::Layer const& layer, std::string_view layoutPath, std::string_view title)
     : m_context(context)
     , m_title(title) {
-    m_root = moth_ui::NodeFactory::Get().Create(m_context, layoutPath, layer.GetWidth(), layer.GetHeight());
+    auto [node, result] = moth_ui::NodeFactory::Get().Create(m_context, layoutPath, layer.GetWidth(), layer.GetHeight());
+    m_root = node; // NOLINT(cppcoreguidelines-prefer-member-initializer)
     if (m_root) {
         m_root->SetEventHandler([this](moth_ui::Node* node, moth_ui::Event const& event) {
             return LayoutEvent(node, event);
